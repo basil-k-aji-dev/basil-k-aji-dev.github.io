@@ -55,7 +55,7 @@ li { margin-bottom: .3em; }
   display: flex; align-items: center;
 }
 .nav-inner {
-  max-width: 100%; margin: 0 auto; padding: 0 2rem;
+  max-width: 100%; margin: 0 auto; padding: 0 4%;
   width: 100%; display: flex; align-items: center; gap: 2rem;
 }
 .nav-brand { font-weight: 700; font-size: 1rem; color: var(--text); white-space: nowrap; }
@@ -71,7 +71,7 @@ li { margin-bottom: .3em; }
   display: grid;
   grid-template-columns: var(--sidebar-w) 1fr;
   gap: 2rem;
-  padding: 2rem 2rem 5rem;
+  padding: 2rem 4% 5rem;
   align-items: start;
 }
 
