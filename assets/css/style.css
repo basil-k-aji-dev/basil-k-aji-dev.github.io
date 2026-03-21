@@ -51,7 +51,7 @@ li { margin-bottom: .3em; }
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: none;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  box-shadow: none;
   display: flex; align-items: center;
 }
 .nav-inner {
