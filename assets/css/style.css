@@ -117,6 +117,13 @@ li { margin-bottom: .3em; }
 .main-content {
   min-width: 0;
   padding: 2rem 1rem;
+  background: transparent !important;
+}
+
+.section {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
 }
 
 /* Sections — no borders, just spacing */
