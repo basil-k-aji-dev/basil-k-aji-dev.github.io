@@ -14,8 +14,8 @@
   <!-- Academicons for scholar / orcid / etc. -->
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" />
-  <!-- Favicon -->
-  <link rel="icon" type="image/jpeg" href="images/me.jpeg" />
+  <!-- Favicon (circular, set via JS) -->
+  <link rel="icon" id="favicon" type="image/png" href="images/me.jpeg" />
   <!-- Site stylesheet -->
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
@@ -186,5 +186,22 @@
        FOOTER
   ══════════════════════════════════════════════════════════ -->
   <script src="assets/js/main.js"></script>
+  <script>
+    // Round favicon
+    const img = new Image();
+    img.src = 'images/me.jpeg';
+    img.onload = () => {
+      const size = 64;
+      const canvas = document.createElement('canvas');
+      canvas.width = canvas.height = size;
+      const ctx = canvas.getContext('2d');
+      ctx.beginPath();
+      ctx.arc(size / 2, size / 2, size / 2, 0, Math.PI * 2);
+      ctx.closePath();
+      ctx.clip();
+      ctx.drawImage(img, 0, 0, size, size);
+      document.getElementById('favicon').href = canvas.toDataURL('image/png');
+    };
+  </script>
 </body>
 </html>
