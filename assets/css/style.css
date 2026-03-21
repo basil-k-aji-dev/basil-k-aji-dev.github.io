@@ -20,7 +20,23 @@
 }
 
 html { scroll-behavior: smooth; scroll-padding-top: calc(var(--nav-h) + 16px); }
-body { font-family: var(--font); font-size: 15px; color: var(--text); background: #f8f9fa; line-height: 1.6; }
+
+@keyframes gradientFlow {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body {
+  font-family: var(--font);
+  font-size: 15px;
+  color: var(--text);
+  line-height: 1.6;
+  background: linear-gradient(135deg, #e0eaff, #f0e6ff, #dff5f0, #e8f4ff, #fde8ff);
+  background-size: 400% 400%;
+  animation: gradientFlow 12s ease infinite;
+  min-height: 100vh;
+}
 a { color: var(--accent); text-decoration: none; transition: color var(--trans); }
 a:hover { color: #001f5e; text-decoration: underline; }
 img { max-width: 100%; height: auto; display: block; }
