@@ -145,6 +145,7 @@ li { margin-bottom: .3em; }
 }
 .section-toggle:hover { background: var(--accent-lt); color: var(--accent); border-color: var(--accent); }
 .section-body.collapsed { display: none; }
+.section-body { padding-bottom: 1rem; }
 
 /* ============================
    PAPER BOX
