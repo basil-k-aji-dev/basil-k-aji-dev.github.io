@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Open Source Contributions – Basil K Aji</title>
+  <meta name="description" content="Open source pull requests by Basil K Aji, by repository." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" id="favicon" type="image/png" href="images/me.jpeg" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Scoped to this page so the shared stylesheet stays untouched. */
+    .oss-stats { display: flex; flex-wrap: wrap; gap: 1rem; margin: 0 0 1.75rem; }
+    .oss-stat {
+      flex: 1 1 140px; border: 1px solid var(--border); border-radius: var(--radius);
+      padding: .85rem 1rem; background: #fff;
+    }
+    .oss-stat .n { font-size: 1.9rem; font-weight: 700; line-height: 1.1; }
+    .oss-stat .l { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+    .oss-stat.merged .n { color: #2ea043; }
+    .oss-stat.review .n { color: #1f6feb; }
+    .oss-stat.repos  .n { color: var(--accent); }
+
+    .oss-chart { margin: 0 0 2rem; }
+    .oss-row { display: grid; grid-template-columns: minmax(0,15rem) 1fr auto; gap: .6rem; align-items: center; margin-bottom: .4rem; }
+    .oss-row .name { font-size: .88rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .oss-row .name a { color: var(--text); text-decoration: none; }
+    .oss-row .name a:hover { color: var(--accent); text-decoration: underline; }
+    .oss-bar { display: flex; height: 16px; border-radius: 3px; overflow: hidden; background: var(--accent-lt); }
+    .oss-bar i { display: block; height: 100%; }
+    .oss-bar .m { background: #2ea043; }
+    .oss-bar .o { background: #1f6feb; }
+    .oss-row .cnt { font-size: .8rem; color: var(--muted); min-width: 2.5rem; text-align: right; }
+
+    .oss-legend { font-size: .8rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .oss-legend i { display: inline-block; width: .7rem; height: .7rem; border-radius: 2px; margin-right: .3rem; vertical-align: middle; }
+
+    .oss-repo { border: 1px solid var(--border); border-radius: var(--radius); padding: .9rem 1rem; margin-bottom: .8rem; }
+    .oss-repo h3 { margin: 0 0 .5rem; font-size: .98rem; }
+    .oss-repo h3 a { color: var(--accent); text-decoration: none; }
+    .oss-repo h3 a:hover { text-decoration: underline; }
+    .oss-pr { font-size: .85rem; padding: .22rem 0; display: flex; gap: .5rem; align-items: baseline; }
+    .oss-pr a { color: var(--text); text-decoration: none; }
+    .oss-pr a:hover { color: var(--accent); text-decoration: underline; }
+    .tag { font-size: .68rem; padding: .1rem .45rem; border-radius: 999px; white-space: nowrap; color: #fff; }
+    .tag.merged { background: #2ea043; }
+    .tag.open   { background: #1f6feb; }
+    .oss-note { font-size: .78rem; color: var(--muted); margin-top: 1.5rem; }
+    @media (max-width: 640px) { .oss-row { grid-template-columns: minmax(0,8rem) 1fr auto; } }
+  </style>
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Site navigation">
+    <div class="nav-inner">
+      <span class="nav-brand">BASIL K AJI</span>
+      <div class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#publications">Publications</a>
+        <a href="contributions.html">Contributions</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#education">Education</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+    <main class="main-content">
+
+      <section id="contributions">
+        <div class="section">
+          <div class="section-header">
+            <h1 class="section-title">&#x1F517; Open Source Contributions</h1>
+          </div>
+          <div class="section-body">
+
+            <div class="oss-stats" id="oss-stats"></div>
+
+            <h2 class="section-title" style="font-size:1rem;margin:.5rem 0 .75rem;">Where I contribute most</h2>
+            <div class="oss-legend">
+              <i style="background:#2ea043"></i>Merged&nbsp;&nbsp;
+              <i style="background:#1f6feb"></i>In review
+            </div>
+            <div class="oss-chart" id="oss-chart"></div>
+
+            <h2 class="section-title" style="font-size:1rem;margin:.5rem 0 .75rem;">Repositories</h2>
+            <div id="oss-repos"></div>
+
+            <p class="oss-note" id="oss-note"></p>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+<script>
+(function () {
+  var statsEl = document.getElementById('oss-stats');
+  var chartEl = document.getElementById('oss-chart');
+  var reposEl = document.getElementById('oss-repos');
+  var noteEl  = document.getElementById('oss-note');
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function stat(cls, n, label) {
+    return '<div class="oss-stat ' + cls + '"><div class="n">' + n +
+           '</div><div class="l">' + label + '</div></div>';
+  }
+
+  function render(d) {
+    statsEl.innerHTML =
+      stat('merged', d.merged, 'Merged') +
+      stat('review', d.in_review, 'In review') +
+      stat('repos',  d.repo_count, 'Repositories');
+
+    var peak = 0;
+    d.repos.forEach(function (r) { peak = Math.max(peak, r.merged + r.open); });
+
+    chartEl.innerHTML = d.repos.map(function (r) {
+      var total = r.merged + r.open;
+      var pct = peak ? (total / peak) * 100 : 0;
+      // Widths are shares of this row's own bar; the bar's width is the
+      // share of the busiest repo, so rows stay comparable.
+      var m = total ? (r.merged / total) * 100 : 0;
+      var o = total ? (r.open / total) * 100 : 0;
+      return '<div class="oss-row">' +
+        '<div class="name"><a href="https://github.com/' + esc(r.repo) + '" target="_blank" rel="noopener">' +
+          esc(r.repo) + '</a></div>' +
+        '<div class="oss-bar" style="width:' + pct.toFixed(1) + '%" ' +
+          'title="' + r.merged + ' merged, ' + r.open + ' in review">' +
+          '<i class="m" style="width:' + m.toFixed(1) + '%"></i>' +
+          '<i class="o" style="width:' + o.toFixed(1) + '%"></i>' +
+        '</div>' +
+        '<div class="cnt">' + total + '</div>' +
+      '</div>';
+    }).join('');
+
+    reposEl.innerHTML = d.repos.map(function (r) {
+      return '<div class="oss-repo">' +
+        '<h3><a href="https://github.com/' + esc(r.repo) + '" target="_blank" rel="noopener">' +
+          esc(r.repo) + '</a> <span class="cnt">— ' + r.merged + ' merged, ' + r.open + ' in review</span></h3>' +
+        r.prs.map(function (p) {
+          return '<div class="oss-pr">' +
+            '<span class="tag ' + esc(p.state) + '">' + (p.state === 'merged' ? 'merged' : 'in review') + '</span>' +
+            '<a href="' + esc(p.url) + '" target="_blank" rel="noopener">#' + esc(p.number) + ' ' + esc(p.title) + '</a>' +
+          '</div>';
+        }).join('') +
+      '</div>';
+    }).join('');
+
+    noteEl.textContent =
+      'Last updated ' + (d.generated || '').slice(0, 10) + ' from the GitHub search API' +
+      (d.excludes_own_repos
+        ? ' · contributions to other people’s repositories only (' +
+          d.all_prs_including_own + ' pull requests in total including my own repositories)'
+        : '') + '.';
+  }
+
+  fetch('assets/contributions.json', { cache: 'no-cache' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(render)
+    .catch(function (err) {
+      statsEl.innerHTML =
+        '<p class="oss-note">Contribution data could not be loaded (' + esc(err.message) + '). ' +
+        'See <a href="https://github.com/basil-k-aji-dev">github.com/basil-k-aji-dev</a>.</p>';
+    });
+})();
+</script>
+
+</body>
+</html>

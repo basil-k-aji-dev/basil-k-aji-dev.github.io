@@ -1,0 +1,197 @@
+{
+  "user": "basil-k-aji-dev",
+  "generated": "2026-09-14T15:58:37Z",
+  "excludes_own_repos": true,
+  "merged": 4,
+  "in_review": 10,
+  "repo_count": 11,
+  "all_prs_including_own": 31,
+  "repos": [
+    {
+      "repo": "alibaba/open-code-review",
+      "merged": 2,
+      "open": 1,
+      "prs": [
+        {
+          "number": 1232,
+          "title": "fix(rules): route Python stub files to the Python review rules",
+          "url": "https://github.com/alibaba/open-code-review/pull/1232",
+          "state": "merged",
+          "updated": "2026-09-14"
+        },
+        {
+          "number": 1228,
+          "title": "fix(llm): install the embedded BPE loader from package init",
+          "url": "https://github.com/alibaba/open-code-review/pull/1228",
+          "state": "merged",
+          "updated": "2026-09-14"
+        },
+        {
+          "number": 1233,
+          "title": "fix(llm): preserve opaque tool-call fields across OpenAI-compatible turns",
+          "url": "https://github.com/alibaba/open-code-review/pull/1233",
+          "state": "open",
+          "updated": "2026-09-14"
+        }
+      ],
+      "total": 3
+    },
+    {
+      "repo": "google/artemis",
+      "merged": 0,
+      "open": 2,
+      "prs": [
+        {
+          "number": 98,
+          "title": "test(mcp): let the emulator win32 branch be exercised from any host",
+          "url": "https://github.com/google/artemis/pull/98",
+          "state": "open",
+          "updated": "2026-09-14"
+        },
+        {
+          "number": 84,
+          "title": "fix(client): reject nonpositive wait controls before submitting a task",
+          "url": "https://github.com/google/artemis/pull/84",
+          "state": "open",
+          "updated": "2026-09-14"
+        }
+      ],
+      "total": 2
+    },
+    {
+      "repo": "Fzkuji/OpenProgram",
+      "merged": 1,
+      "open": 0,
+      "prs": [
+        {
+          "number": 39,
+          "title": "fix(worker): import no_window_creation_flags at both web spawn sites",
+          "url": "https://github.com/Fzkuji/OpenProgram/pull/39",
+          "state": "merged",
+          "updated": "2026-09-13"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "jingyaogong/minimind",
+      "merged": 1,
+      "open": 0,
+      "prs": [
+        {
+          "number": 854,
+          "title": "[fix] route RL trainer forward through DDP so gradients all-reduce",
+          "url": "https://github.com/jingyaogong/minimind/pull/854",
+          "state": "merged",
+          "updated": "2026-09-14"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "debpalash/VoiceStudio",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 2072,
+          "title": "fix(docker): install cuDNN 8 compat libraries in the CUDA Docker image",
+          "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
+          "state": "open",
+          "updated": "2026-09-13"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "github/advisory-database",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 9514,
+          "title": "GHSA-x99w-6fgc-pmfw: set introduced to 3.10.0 (allowlisted pickle loaders did not exist before 3.10.0)",
+          "url": "https://github.com/github/advisory-database/pull/9514",
+          "state": "open",
+          "updated": "2026-09-14"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "JustVugg/colibri",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 1497,
+          "title": "feat(api): opt-in prompt-injected tool translation for OLMoE and Qwen3.6",
+          "url": "https://github.com/JustVugg/colibri/pull/1497",
+          "state": "open",
+          "updated": "2026-09-14"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "neo4j-labs/create-context-graph",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 64,
+          "title": "fix(cli): merge connector data into existing fixtures instead of replacing",
+          "url": "https://github.com/neo4j-labs/create-context-graph/pull/64",
+          "state": "open",
+          "updated": "2026-09-14"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "openlit/openlit",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 1566,
+          "title": "fix(together): bind instrumentation to together 2.x resource classes",
+          "url": "https://github.com/openlit/openlit/pull/1566",
+          "state": "open",
+          "updated": "2026-09-13"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "rylena/sshdesk",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 6,
+          "title": "fix(input): discard unrecognised CSI sequences instead of typing them",
+          "url": "https://github.com/rylena/sshdesk/pull/6",
+          "state": "open",
+          "updated": "2026-09-13"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "traceloop/openllmetry",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 4470,
+          "title": "fix(qdrant): restore search instrumentation on qdrant-client >= 1.12",
+          "url": "https://github.com/traceloop/openllmetry/pull/4470",
+          "state": "open",
+          "updated": "2026-09-13"
+        }
+      ],
+      "total": 1
+    }
+  ]
+}
