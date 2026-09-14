@@ -1,0 +1,27 @@
+<!DOCTYPE html><html><head><meta charset="utf-8">
+<style>body{font:12px monospace;margin:0;padding:6px}iframe{width:1100px;height:300px;border:0}pre{white-space:pre-wrap}</style>
+</head><body><iframe id="f" src="contributions.html"></iframe><pre id="o">…</pre>
+<script>
+var log=[];
+document.getElementById('f').onload=function(){
+  var d=this.contentDocument, w=this.contentWindow;
+  setTimeout(function(){
+    function names(){return [].map.call(d.querySelectorAll('.oss-repo h3 a'),function(a){return a.textContent}).join(', ')}
+    function pager(){return (d.getElementById('oss-pager').textContent||'').replace(/\s+/g,' ').trim()}
+    log.push('pages total repos: '+d.querySelectorAll('.oss-repo').length+' shown');
+    log.push('P1: '+names());
+    log.push('pager: '+pager());
+    var next=d.querySelector('#oss-pager button[data-step="1"]');
+    next.click();
+    log.push('P2: '+names());
+    log.push('pager: '+pager());
+    d.querySelector('#oss-pager button[data-page="3"]').click();
+    log.push('P3: '+names());
+    log.push('prev disabled on p3? '+d.querySelector('#oss-pager button[data-step="-1"]').disabled);
+    log.push('next disabled on p3? '+d.querySelector('#oss-pager button[data-step="1"]').disabled);
+    d.querySelector('#oss-pager button[data-page="1"]').click();
+    log.push('back to P1 prev disabled? '+d.querySelector('#oss-pager button[data-step="-1"]').disabled);
+    document.getElementById('o').textContent=log.join('\n');
+  },900);
+};
+</script></body></html>
