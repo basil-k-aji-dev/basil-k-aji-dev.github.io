@@ -13,6 +13,12 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <style>
     /* Scoped to this page so the shared stylesheet stays untouched. */
+
+    /* The shared .page-wrapper is a 260px sidebar + 1fr grid. This page has no
+       sidebar, so without this override `main` renders inside the 260px
+       sidebar column and the chart has no room to draw. */
+    .page-wrapper { grid-template-columns: 1fr; }
+    .main-content { padding: 2rem 0; }
     .oss-stats { display: flex; flex-wrap: wrap; gap: 1rem; margin: 0 0 1.75rem; }
     .oss-stat {
       flex: 1 1 140px; border: 1px solid var(--border); border-radius: var(--radius);
@@ -25,11 +31,11 @@
     .oss-stat.repos  .n { color: var(--accent); }
 
     .oss-chart { margin: 0 0 2rem; }
-    .oss-row { display: grid; grid-template-columns: minmax(0,15rem) 1fr auto; gap: .6rem; align-items: center; margin-bottom: .4rem; }
+    .oss-row { display: grid; grid-template-columns: minmax(0,13rem) minmax(0,1fr) auto; gap: .6rem; align-items: center; margin-bottom: .4rem; }
     .oss-row .name { font-size: .88rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
     .oss-row .name a { color: var(--text); text-decoration: none; }
     .oss-row .name a:hover { color: var(--accent); text-decoration: underline; }
-    .oss-bar { display: flex; height: 16px; border-radius: 3px; overflow: hidden; background: var(--accent-lt); }
+    .oss-bar { display: flex; height: 18px; min-width: 2px; border-radius: 3px; overflow: hidden; background: var(--accent-lt); }
     .oss-bar i { display: block; height: 100%; }
     .oss-bar .m { background: #2ea043; }
     .oss-bar .o { background: #1f6feb; }
@@ -49,7 +55,20 @@
     .tag.merged { background: #2ea043; }
     .tag.open   { background: #1f6feb; }
     .oss-note { font-size: .78rem; color: var(--muted); margin-top: 1.5rem; }
-    @media (max-width: 640px) { .oss-row { grid-template-columns: minmax(0,8rem) 1fr auto; } }
+    /* Narrow screens: the three stat cards cannot fit 140px each plus gaps on a
+       390px viewport, and a 13rem name column leaves the bar no room. Both are
+       what pushed the page wider than the viewport. */
+    @media (max-width: 680px) {
+      .oss-stats { gap: .6rem; }
+      .oss-stat { flex: 1 1 100%; }
+      .oss-row { grid-template-columns: minmax(0,7.5rem) minmax(0,1fr) auto; gap: .45rem; }
+      .oss-row .name { font-size: .8rem; }
+      .oss-repo { padding: .75rem .8rem; }
+      .oss-pr { flex-wrap: wrap; }
+    }
+    /* Nothing on this page may force a horizontal scrollbar. */
+    #contributions, #contributions * { max-width: 100%; }
+    .oss-pr a { overflow-wrap: anywhere; }
   </style>
 </head>
 <body>
