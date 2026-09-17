@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-17T02:54:10Z",
+  "generated": "2026-09-17T16:01:35Z",
   "excludes_own_repos": true,
-  "merged": 5,
-  "in_review": 12,
+  "merged": 7,
+  "in_review": 10,
   "repo_count": 12,
   "all_prs_including_own": 34,
   "repos": [
@@ -59,6 +59,28 @@
       "total": 2
     },
     {
+      "repo": "JustVugg/colibri",
+      "merged": 1,
+      "open": 1,
+      "prs": [
+        {
+          "number": 1549,
+          "title": "fix(st): publish the lazy shard-mapping table without a data race",
+          "url": "https://github.com/JustVugg/colibri/pull/1549",
+          "state": "merged",
+          "updated": "2026-09-17"
+        },
+        {
+          "number": 1497,
+          "title": "feat(api): opt-in prompt-injected tool translation for OLMoE and Qwen3.6",
+          "url": "https://github.com/JustVugg/colibri/pull/1497",
+          "state": "open",
+          "updated": "2026-09-15"
+        }
+      ],
+      "total": 2
+    },
+    {
       "repo": "google/artemis",
       "merged": 0,
       "open": 2,
@@ -81,26 +103,19 @@
       "total": 2
     },
     {
-      "repo": "JustVugg/colibri",
-      "merged": 0,
-      "open": 2,
+      "repo": "debpalash/VoiceStudio",
+      "merged": 1,
+      "open": 0,
       "prs": [
         {
-          "number": 1549,
-          "title": "fix(st): publish the lazy shard-mapping table without a data race",
-          "url": "https://github.com/JustVugg/colibri/pull/1549",
-          "state": "open",
-          "updated": "2026-09-15"
-        },
-        {
-          "number": 1497,
-          "title": "feat(api): opt-in prompt-injected tool translation for OLMoE and Qwen3.6",
-          "url": "https://github.com/JustVugg/colibri/pull/1497",
-          "state": "open",
-          "updated": "2026-09-15"
+          "number": 2072,
+          "title": "fix(docker): install cuDNN 8 compat libraries in the CUDA Docker image",
+          "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
+          "state": "merged",
+          "updated": "2026-09-17"
         }
       ],
-      "total": 2
+      "total": 1
     },
     {
       "repo": "Fzkuji/OpenProgram",
@@ -112,21 +127,6 @@
           "title": "fix(worker): import no_window_creation_flags at both web spawn sites",
           "url": "https://github.com/Fzkuji/OpenProgram/pull/39",
           "state": "merged",
-          "updated": "2026-09-13"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "debpalash/VoiceStudio",
-      "merged": 0,
-      "open": 1,
-      "prs": [
-        {
-          "number": 2072,
-          "title": "fix(docker): install cuDNN 8 compat libraries in the CUDA Docker image",
-          "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
-          "state": "open",
           "updated": "2026-09-13"
         }
       ],
