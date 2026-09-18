@@ -85,8 +85,48 @@
       .oss-pr { flex-wrap: wrap; }
     }
     /* Nothing on this page may force a horizontal scrollbar. */
-    #contributions, #contributions * { max-width: 100%; }
+    #contributions, #contributions *,
+    #kudos, #kudos * { max-width: 100%; }
     .oss-pr a { overflow-wrap: anywhere; }
+
+    /* --- Acknowledgements ------------------------------------------------ */
+    .kudos-grid {
+      display: grid; gap: .9rem;
+      grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+    }
+    .kudo {
+      display: flex; flex-direction: column;
+      border: 1px solid var(--border); border-left: 3px solid var(--accent);
+      border-radius: var(--radius); padding: 1rem 1.1rem; background: #fff;
+    }
+    .kudo blockquote {
+      margin: 0 0 .75rem; font-size: .9rem; line-height: 1.55;
+      /* The quotation marks are decoration, so they are drawn rather than
+         typed: a screen reader should hear the words, not "left double
+         quotation mark". */
+      position: relative; padding-left: 1.15rem;
+    }
+    .kudo blockquote::before {
+      content: "\201C"; position: absolute; left: 0; top: -.25rem;
+      font-size: 1.9rem; line-height: 1; color: var(--accent); opacity: .35;
+    }
+    .kudo cite { font-style: normal; margin-top: auto; }
+    .kudo .who { font-size: .85rem; font-weight: 700; }
+    .kudo .who a { color: var(--text); text-decoration: none; }
+    .kudo .who a:hover { color: var(--accent); text-decoration: underline; }
+    .kudo .role {
+      font-size: .66rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: .05em; padding: .1rem .4rem; border-radius: 999px;
+      background: var(--accent-lt); color: var(--accent); margin-left: .35rem;
+      vertical-align: middle; white-space: nowrap;
+    }
+    .kudo .where { font-size: .78rem; color: var(--muted); margin-top: .2rem; }
+    .kudo .where a { color: var(--muted); }
+    .kudo .where a:hover { color: var(--accent); }
+    @media (max-width: 680px) {
+      .kudos-grid { grid-template-columns: 1fr; }
+      .kudo { padding: .85rem .9rem; }
+    }
   </style>
 </head>
 <body>
@@ -129,6 +169,22 @@
 
             <p class="oss-note" id="oss-note"></p>
 
+          </div>
+        </div>
+      </section>
+
+      <section id="kudos">
+        <div class="section">
+          <div class="section-header">
+            <h2 class="section-title">&#x1F4AC; What people said</h2>
+          </div>
+          <div class="section-body">
+            <p class="oss-note" style="margin:0 0 1.1rem;">
+              Public comments from maintainers and fellow contributors on the pull
+              requests above. Each one links to the original.
+            </p>
+            <div class="kudos-grid" id="kudos-grid"></div>
+            <p class="oss-note" id="kudos-note"></p>
           </div>
         </div>
       </section>
@@ -287,6 +343,59 @@
       statsEl.innerHTML =
         '<p class="oss-note">Contribution data could not be loaded (' + esc(err.message) + '). ' +
         'See <a href="https://github.com/basil-k-aji-dev">github.com/basil-k-aji-dev</a>.</p>';
+    });
+})();
+</script>
+
+<script>
+(function () {
+  var gridEl = document.getElementById('kudos-grid');
+  var noteEl = document.getElementById('kudos-note');
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function card(k) {
+    var who = esc(k.author);
+    return '<figure class="kudo">' +
+      '<blockquote>' + esc(k.quote) + '</blockquote>' +
+      '<cite>' +
+        '<div class="who">' +
+          '<a href="https://github.com/' + who + '" target="_blank" rel="noopener">@' + who + '</a>' +
+          (k.role ? '<span class="role">' + esc(k.role) + '</span>' : '') +
+        '</div>' +
+        '<div class="where">' +
+          '<a href="' + esc(k.url) + '" target="_blank" rel="noopener">' +
+            esc(k.repo) + (k.context ? ' \u2014 ' + esc(k.context) : '') +
+          '</a>' +
+        '</div>' +
+      '</cite>' +
+    '</figure>';
+  }
+
+  fetch('assets/kudos.json', { cache: 'no-cache' })
+    .then(function (r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function (d) {
+      var list = (d && d.kudos) || [];
+      if (!list.length) {
+        document.getElementById('kudos').hidden = true;
+        return;
+      }
+      gridEl.innerHTML = list.map(card).join('');
+      noteEl.textContent =
+        'Quoted verbatim from public pull request threads; an ellipsis marks ' +
+        'omitted text. Curated by hand rather than generated, so nothing is ' +
+        'quoted out of context.';
+    })
+    .catch(function () {
+      // No data, no empty shell: hide the section rather than show a broken one.
+      document.getElementById('kudos').hidden = true;
     });
 })();
 </script>

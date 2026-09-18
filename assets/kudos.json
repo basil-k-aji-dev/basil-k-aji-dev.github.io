@@ -1,0 +1,68 @@
+{
+  "_comment": "Curated by hand, not generated. The contribution figures on this page come from the GitHub search API, but quoting people is not something to automate: a sentiment filter would eventually lift a line out of context or quote criticism as praise. Every entry below is a real public comment, linked to its source so it can be checked. Quote verbatim; mark any elision with an ellipsis; remove an entry if the author asks.",
+  "kudos": [
+    {
+      "quote": "Great job! I actually ran into this exact problem locally yesterday!",
+      "author": "lizhengfeng101",
+      "role": "Maintainer",
+      "repo": "alibaba/open-code-review",
+      "context": "on #1228, a regex fix for .pyi stub rules",
+      "url": "https://github.com/alibaba/open-code-review/pull/1228#issuecomment-5658137926",
+      "date": "2026-09-14"
+    },
+    {
+      "quote": "Thanks for the fix. I independently revalidated the issue with a two-rank CPU/Gloo test using MiniMind's real actor and critic models. […] The patch is minimal and correct.",
+      "author": "jingyaogong",
+      "role": "Maintainer",
+      "repo": "jingyaogong/minimind",
+      "context": "on #854, a DDP gradient-synchronisation fix",
+      "url": "https://github.com/jingyaogong/minimind/pull/854#issuecomment-5666173404",
+      "date": "2026-09-14"
+    },
+    {
+      "quote": "Great work on the minimal fix and careful gradient verification! I'm glad the root cause I analyzed in #858 is confirmed.",
+      "author": "uphome",
+      "role": "Issue reporter",
+      "repo": "jingyaogong/minimind",
+      "context": "on #859, an MoE router gradient fix",
+      "url": "https://github.com/jingyaogong/minimind/pull/859#issuecomment-5724092903",
+      "date": "2026-09-18"
+    },
+    {
+      "quote": "There is good prior work on these two issues from @basil-k-aji-dev […] and this PR builds on it rather than around it. The json:\"-\" choice and the diagnosis that the streaming accumulator drops raw JSON […] come from their PRs.",
+      "author": "Moon-Wrecker",
+      "role": "Contributor",
+      "repo": "alibaba/open-code-review",
+      "context": "crediting prior work in #1393",
+      "url": "https://github.com/alibaba/open-code-review/pull/1393",
+      "date": "2026-09-18"
+    },
+    {
+      "quote": "Thanks for picking up #83! I independently checked fb3c502 on Windows with Python 3.12: all eight zero/negative cases through run() and run_task() made zero transport requests.",
+      "author": "Chris0Jeky",
+      "role": "Contributor",
+      "repo": "google/artemis",
+      "context": "independent verification on #84",
+      "url": "https://github.com/google/artemis/pull/84#issuecomment-5663141938",
+      "date": "2026-09-14"
+    },
+    {
+      "quote": "Verified a0c9ef1 on Windows/amd64 with the race detector […] go test ./... is green across all 23 packages.",
+      "author": "subaru-ye",
+      "role": "Contributor",
+      "repo": "alibaba/open-code-review",
+      "context": "independent verification on #1233",
+      "url": "https://github.com/alibaba/open-code-review/pull/1233#issuecomment-5724099572",
+      "date": "2026-09-18"
+    },
+    {
+      "quote": "Independent verification on a second Gemini surface […] This PR's description cites Vertex AI — the same break and the same fix hold here.",
+      "author": "pdrivom",
+      "role": "Contributor",
+      "repo": "alibaba/open-code-review",
+      "context": "independent verification on #1233",
+      "url": "https://github.com/alibaba/open-code-review/pull/1233#issuecomment-5665829292",
+      "date": "2026-09-14"
+    }
+  ]
+}
