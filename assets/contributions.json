@@ -1,12 +1,41 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-18T02:40:51Z",
+  "generated": "2026-09-18T15:37:24Z",
   "excludes_own_repos": true,
-  "merged": 7,
-  "in_review": 11,
+  "merged": 8,
+  "in_review": 10,
   "repo_count": 12,
   "all_prs_including_own": 35,
   "repos": [
+    {
+      "repo": "jingyaogong/minimind",
+      "merged": 3,
+      "open": 0,
+      "prs": [
+        {
+          "number": 859,
+          "title": "[fix] keep the MoE router trainable at num_experts_per_tok=1",
+          "url": "https://github.com/jingyaogong/minimind/pull/859",
+          "state": "merged",
+          "updated": "2026-09-18"
+        },
+        {
+          "number": 855,
+          "title": "[perf] skip the per-forward RoPE buffer broadcast in the RL trainers",
+          "url": "https://github.com/jingyaogong/minimind/pull/855",
+          "state": "merged",
+          "updated": "2026-09-15"
+        },
+        {
+          "number": 854,
+          "title": "[fix] route RL trainer forward through DDP so gradients all-reduce",
+          "url": "https://github.com/jingyaogong/minimind/pull/854",
+          "state": "merged",
+          "updated": "2026-09-14"
+        }
+      ],
+      "total": 3
+    },
     {
       "repo": "alibaba/open-code-review",
       "merged": 2,
@@ -30,35 +59,6 @@
           "number": 1228,
           "title": "fix(llm): install the embedded BPE loader from package init",
           "url": "https://github.com/alibaba/open-code-review/pull/1228",
-          "state": "merged",
-          "updated": "2026-09-14"
-        }
-      ],
-      "total": 3
-    },
-    {
-      "repo": "jingyaogong/minimind",
-      "merged": 2,
-      "open": 1,
-      "prs": [
-        {
-          "number": 859,
-          "title": "[fix] keep the MoE router trainable at num_experts_per_tok=1",
-          "url": "https://github.com/jingyaogong/minimind/pull/859",
-          "state": "open",
-          "updated": "2026-09-18"
-        },
-        {
-          "number": 855,
-          "title": "[perf] skip the per-forward RoPE buffer broadcast in the RL trainers",
-          "url": "https://github.com/jingyaogong/minimind/pull/855",
-          "state": "merged",
-          "updated": "2026-09-15"
-        },
-        {
-          "number": 854,
-          "title": "[fix] route RL trainer forward through DDP so gradients all-reduce",
-          "url": "https://github.com/jingyaogong/minimind/pull/854",
           "state": "merged",
           "updated": "2026-09-14"
         }
