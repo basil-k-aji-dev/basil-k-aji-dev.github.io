@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-18T15:37:24Z",
+  "generated": "2026-09-19T02:40:02Z",
   "excludes_own_repos": true,
-  "merged": 8,
+  "merged": 7,
   "in_review": 10,
-  "repo_count": 12,
-  "all_prs_including_own": 35,
+  "repo_count": 11,
+  "all_prs_including_own": 34,
   "repos": [
     {
       "repo": "jingyaogong/minimind",
@@ -24,7 +24,7 @@
           "title": "[perf] skip the per-forward RoPE buffer broadcast in the RL trainers",
           "url": "https://github.com/jingyaogong/minimind/pull/855",
           "state": "merged",
-          "updated": "2026-09-15"
+          "updated": "2026-09-18"
         },
         {
           "number": 854,
@@ -120,21 +120,6 @@
           "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
           "state": "merged",
           "updated": "2026-09-17"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "Fzkuji/OpenProgram",
-      "merged": 1,
-      "open": 0,
-      "prs": [
-        {
-          "number": 39,
-          "title": "fix(worker): import no_window_creation_flags at both web spawn sites",
-          "url": "https://github.com/Fzkuji/OpenProgram/pull/39",
-          "state": "merged",
-          "updated": "2026-09-13"
         }
       ],
       "total": 1
