@@ -2,6 +2,24 @@
   "_comment": "Curated by hand, not generated. The contribution figures on this page come from the GitHub search API, but quoting people is not something to automate: a sentiment filter would eventually lift a line out of context or quote criticism as praise. Every entry below is a real public comment, linked to its source so it can be checked. Quote verbatim; mark any elision with an ellipsis; remove an entry if the author asks.",
   "kudos": [
     {
+      "quote": "Thank you for a clean piece of work, and for writing down what it does not promise.",
+      "author": "WaylandYang",
+      "role": "Maintainer",
+      "repo": "deeplethe/utopia",
+      "context": "merging #776 into dev; shipped in release v0.1.0-rc6",
+      "url": "https://github.com/deeplethe/utopia/pull/776#issuecomment-5740386727",
+      "date": "2026-09-19"
+    },
+    {
+      "quote": "agree with @basil-k-aji-dev's points on generic replay and persistence. it feels like a solid and future proof approach.",
+      "author": "AyushDubey23",
+      "role": "Contributor",
+      "repo": "alibaba/open-code-review",
+      "context": "on the abstraction question in #1393",
+      "url": "https://github.com/alibaba/open-code-review/pull/1393#issuecomment-5739656261",
+      "date": "2026-09-19"
+    },
+    {
       "quote": "Great job! I actually ran into this exact problem locally yesterday!",
       "author": "lizhengfeng101",
       "role": "Maintainer",
