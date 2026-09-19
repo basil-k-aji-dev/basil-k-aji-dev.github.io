@@ -1,12 +1,62 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-19T02:40:02Z",
+  "generated": "2026-09-19T15:10:27Z",
   "excludes_own_repos": true,
   "merged": 7,
-  "in_review": 10,
-  "repo_count": 11,
-  "all_prs_including_own": 34,
+  "in_review": 17,
+  "repo_count": 13,
+  "all_prs_including_own": 42,
   "repos": [
+    {
+      "repo": "openlit/openlit",
+      "merged": 0,
+      "open": 6,
+      "prs": [
+        {
+          "number": 1617,
+          "title": "fix(cli): resolve the newest cli-* release instead of /releases/latest",
+          "url": "https://github.com/openlit/openlit/pull/1617",
+          "state": "open",
+          "updated": "2026-09-19"
+        },
+        {
+          "number": 1613,
+          "title": "fix(groq): the async close override must be named close, not aclose",
+          "url": "https://github.com/openlit/openlit/pull/1613",
+          "state": "open",
+          "updated": "2026-09-19"
+        },
+        {
+          "number": 1612,
+          "title": "fix(browser_use/crawl4ai): record operation duration in seconds",
+          "url": "https://github.com/openlit/openlit/pull/1612",
+          "state": "open",
+          "updated": "2026-09-19"
+        },
+        {
+          "number": 1611,
+          "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
+          "url": "https://github.com/openlit/openlit/pull/1611",
+          "state": "open",
+          "updated": "2026-09-19"
+        },
+        {
+          "number": 1610,
+          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
+          "url": "https://github.com/openlit/openlit/pull/1610",
+          "state": "open",
+          "updated": "2026-09-19"
+        },
+        {
+          "number": 1566,
+          "title": "fix(together): bind instrumentation to together 2.x resource classes",
+          "url": "https://github.com/openlit/openlit/pull/1566",
+          "state": "open",
+          "updated": "2026-09-13"
+        }
+      ],
+      "total": 6
+    },
     {
       "repo": "jingyaogong/minimind",
       "merged": 3,
@@ -46,7 +96,7 @@
           "title": "fix(llm): preserve opaque tool-call fields across OpenAI-compatible turns",
           "url": "https://github.com/alibaba/open-code-review/pull/1233",
           "state": "open",
-          "updated": "2026-09-18"
+          "updated": "2026-09-19"
         },
         {
           "number": 1232,
@@ -155,21 +205,6 @@
       "total": 1
     },
     {
-      "repo": "openlit/openlit",
-      "merged": 0,
-      "open": 1,
-      "prs": [
-        {
-          "number": 1566,
-          "title": "fix(together): bind instrumentation to together 2.x resource classes",
-          "url": "https://github.com/openlit/openlit/pull/1566",
-          "state": "open",
-          "updated": "2026-09-13"
-        }
-      ],
-      "total": 1
-    },
-    {
       "repo": "rylena/sshdesk",
       "merged": 0,
       "open": 1,
@@ -185,6 +220,21 @@
       "total": 1
     },
     {
+      "repo": "Tencent/BrowserSkill",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 289,
+          "title": "docs(skill): say that page content is data, never instructions",
+          "url": "https://github.com/Tencent/BrowserSkill/pull/289",
+          "state": "open",
+          "updated": "2026-09-19"
+        }
+      ],
+      "total": 1
+    },
+    {
       "repo": "traceloop/openllmetry",
       "merged": 0,
       "open": 1,
@@ -195,6 +245,21 @@
           "url": "https://github.com/traceloop/openllmetry/pull/4470",
           "state": "open",
           "updated": "2026-09-13"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "vllm-project/semantic-router",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 3940,
+          "title": "[Bug] Stop passing warmup_ratio/logging_dir removed in transformers 5.15",
+          "url": "https://github.com/vllm-project/semantic-router/pull/3940",
+          "state": "open",
+          "updated": "2026-09-19"
         }
       ],
       "total": 1
