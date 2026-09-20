@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-19T15:10:27Z",
+  "generated": "2026-09-20T02:52:02Z",
   "excludes_own_repos": true,
   "merged": 7,
-  "in_review": 17,
-  "repo_count": 13,
-  "all_prs_including_own": 42,
+  "in_review": 16,
+  "repo_count": 12,
+  "all_prs_including_own": 43,
   "repos": [
     {
       "repo": "openlit/openlit",
@@ -245,21 +245,6 @@
           "url": "https://github.com/traceloop/openllmetry/pull/4470",
           "state": "open",
           "updated": "2026-09-13"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "vllm-project/semantic-router",
-      "merged": 0,
-      "open": 1,
-      "prs": [
-        {
-          "number": 3940,
-          "title": "[Bug] Stop passing warmup_ratio/logging_dir removed in transformers 5.15",
-          "url": "https://github.com/vllm-project/semantic-router/pull/3940",
-          "state": "open",
-          "updated": "2026-09-19"
         }
       ],
       "total": 1
