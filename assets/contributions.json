@@ -1,21 +1,42 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-21T02:49:12Z",
+  "generated": "2026-09-21T17:38:47Z",
   "excludes_own_repos": true,
-  "merged": 11,
-  "in_review": 23,
+  "merged": 15,
+  "in_review": 19,
   "repo_count": 14,
   "all_prs_including_own": 54,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
-      "merged": 3,
-      "open": 5,
+      "merged": 6,
+      "open": 2,
       "prs": [
         {
           "number": 1499,
           "title": "fix(config): exclude dependency and build-output directories by default",
           "url": "https://github.com/alibaba/open-code-review/pull/1499",
+          "state": "merged",
+          "updated": "2026-09-21"
+        },
+        {
+          "number": 1498,
+          "title": "fix(diff): parse git's quoted pathnames instead of dropping the file",
+          "url": "https://github.com/alibaba/open-code-review/pull/1498",
+          "state": "merged",
+          "updated": "2026-09-21"
+        },
+        {
+          "number": 1497,
+          "title": "fix(scan): keep NUL-delimited pathnames from git ls-files intact",
+          "url": "https://github.com/alibaba/open-code-review/pull/1497",
+          "state": "merged",
+          "updated": "2026-09-21"
+        },
+        {
+          "number": 1490,
+          "title": "feat(session): add 'ocr session rm' to delete a saved session",
+          "url": "https://github.com/alibaba/open-code-review/pull/1490",
           "state": "open",
           "updated": "2026-09-21"
         },
@@ -24,27 +45,6 @@
           "title": "fix(viewer): shorten the session id cell on the session list",
           "url": "https://github.com/alibaba/open-code-review/pull/1488",
           "state": "merged",
-          "updated": "2026-09-20"
-        },
-        {
-          "number": 1498,
-          "title": "fix(diff): parse git's quoted pathnames instead of dropping the file",
-          "url": "https://github.com/alibaba/open-code-review/pull/1498",
-          "state": "open",
-          "updated": "2026-09-20"
-        },
-        {
-          "number": 1497,
-          "title": "fix(scan): keep NUL-delimited pathnames from git ls-files intact",
-          "url": "https://github.com/alibaba/open-code-review/pull/1497",
-          "state": "open",
-          "updated": "2026-09-20"
-        },
-        {
-          "number": 1490,
-          "title": "feat(session): add 'ocr session rm' to delete a saved session",
-          "url": "https://github.com/alibaba/open-code-review/pull/1490",
-          "state": "open",
           "updated": "2026-09-20"
         },
         {
@@ -187,6 +187,28 @@
       "total": 3
     },
     {
+      "repo": "JustVugg/colibri",
+      "merged": 2,
+      "open": 0,
+      "prs": [
+        {
+          "number": 1497,
+          "title": "feat(api): opt-in prompt-injected tool translation for OLMoE and Qwen3.6",
+          "url": "https://github.com/JustVugg/colibri/pull/1497",
+          "state": "merged",
+          "updated": "2026-09-21"
+        },
+        {
+          "number": 1549,
+          "title": "fix(st): publish the lazy shard-mapping table without a data race",
+          "url": "https://github.com/JustVugg/colibri/pull/1549",
+          "state": "merged",
+          "updated": "2026-09-17"
+        }
+      ],
+      "total": 2
+    },
+    {
       "repo": "maximhq/bifrost",
       "merged": 2,
       "open": 0,
@@ -204,28 +226,6 @@
           "url": "https://github.com/maximhq/bifrost/pull/7348",
           "state": "merged",
           "updated": "2026-09-20"
-        }
-      ],
-      "total": 2
-    },
-    {
-      "repo": "JustVugg/colibri",
-      "merged": 1,
-      "open": 1,
-      "prs": [
-        {
-          "number": 1549,
-          "title": "fix(st): publish the lazy shard-mapping table without a data race",
-          "url": "https://github.com/JustVugg/colibri/pull/1549",
-          "state": "merged",
-          "updated": "2026-09-17"
-        },
-        {
-          "number": 1497,
-          "title": "feat(api): opt-in prompt-injected tool translation for OLMoE and Qwen3.6",
-          "url": "https://github.com/JustVugg/colibri/pull/1497",
-          "state": "open",
-          "updated": "2026-09-15"
         }
       ],
       "total": 2
