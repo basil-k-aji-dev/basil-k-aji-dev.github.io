@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-20T15:15:14Z",
+  "generated": "2026-09-21T02:49:12Z",
   "excludes_own_repos": true,
-  "merged": 10,
+  "merged": 11,
   "in_review": 23,
   "repo_count": 14,
-  "all_prs_including_own": 53,
+  "all_prs_including_own": 54,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
@@ -13,17 +13,17 @@
       "open": 5,
       "prs": [
         {
-          "number": 1488,
-          "title": "fix(viewer): shorten the session id cell on the session list",
-          "url": "https://github.com/alibaba/open-code-review/pull/1488",
-          "state": "merged",
-          "updated": "2026-09-20"
-        },
-        {
           "number": 1499,
           "title": "fix(config): exclude dependency and build-output directories by default",
           "url": "https://github.com/alibaba/open-code-review/pull/1499",
           "state": "open",
+          "updated": "2026-09-21"
+        },
+        {
+          "number": 1488,
+          "title": "fix(viewer): shorten the session id cell on the session list",
+          "url": "https://github.com/alibaba/open-code-review/pull/1488",
+          "state": "merged",
           "updated": "2026-09-20"
         },
         {
@@ -187,6 +187,28 @@
       "total": 3
     },
     {
+      "repo": "maximhq/bifrost",
+      "merged": 2,
+      "open": 0,
+      "prs": [
+        {
+          "number": 7360,
+          "title": "fix(bedrock): keep cache_control when a message's content is a string",
+          "url": "https://github.com/maximhq/bifrost/pull/7360",
+          "state": "merged",
+          "updated": "2026-09-20"
+        },
+        {
+          "number": 7348,
+          "title": "fix(anthropic): carry allowed_tools and parallel_tool_calls into the request",
+          "url": "https://github.com/maximhq/bifrost/pull/7348",
+          "state": "merged",
+          "updated": "2026-09-20"
+        }
+      ],
+      "total": 2
+    },
+    {
       "repo": "JustVugg/colibri",
       "merged": 1,
       "open": 1,
@@ -241,21 +263,6 @@
           "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
           "state": "merged",
           "updated": "2026-09-17"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "maximhq/bifrost",
-      "merged": 1,
-      "open": 0,
-      "prs": [
-        {
-          "number": 7348,
-          "title": "fix(anthropic): carry allowed_tools and parallel_tool_calls into the request",
-          "url": "https://github.com/maximhq/bifrost/pull/7348",
-          "state": "merged",
-          "updated": "2026-09-20"
         }
       ],
       "total": 1
