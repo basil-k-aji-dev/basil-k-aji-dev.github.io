@@ -1,23 +1,37 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-22T02:50:00Z",
+  "generated": "2026-09-22T16:05:22Z",
   "excludes_own_repos": true,
   "merged": 15,
-  "in_review": 19,
+  "in_review": 20,
   "repo_count": 14,
-  "all_prs_including_own": 54,
+  "all_prs_including_own": 55,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
       "merged": 6,
-      "open": 2,
+      "open": 3,
       "prs": [
         {
           "number": 1499,
           "title": "fix(config): exclude dependency and build-output directories by default",
           "url": "https://github.com/alibaba/open-code-review/pull/1499",
           "state": "merged",
-          "updated": "2026-09-21"
+          "updated": "2026-09-22"
+        },
+        {
+          "number": 1541,
+          "title": "docs(review): generate the exclude list from the json it documents",
+          "url": "https://github.com/alibaba/open-code-review/pull/1541",
+          "state": "open",
+          "updated": "2026-09-22"
+        },
+        {
+          "number": 1490,
+          "title": "feat(session): add 'ocr session rm' to delete a saved session",
+          "url": "https://github.com/alibaba/open-code-review/pull/1490",
+          "state": "open",
+          "updated": "2026-09-22"
         },
         {
           "number": 1498,
@@ -31,13 +45,6 @@
           "title": "fix(scan): keep NUL-delimited pathnames from git ls-files intact",
           "url": "https://github.com/alibaba/open-code-review/pull/1497",
           "state": "merged",
-          "updated": "2026-09-21"
-        },
-        {
-          "number": 1490,
-          "title": "feat(session): add 'ocr session rm' to delete a saved session",
-          "url": "https://github.com/alibaba/open-code-review/pull/1490",
-          "state": "open",
           "updated": "2026-09-21"
         },
         {
@@ -69,7 +76,7 @@
           "updated": "2026-09-14"
         }
       ],
-      "total": 8
+      "total": 9
     },
     {
       "repo": "openlit/openlit",
@@ -131,21 +138,21 @@
           "title": "feat(streaming): opt-in strict_stream_completion for truncated streams",
           "url": "https://github.com/BerriAI/litellm/pull/42140",
           "state": "open",
-          "updated": "2026-09-20"
+          "updated": "2026-09-22"
         },
         {
           "number": 42138,
           "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
           "url": "https://github.com/BerriAI/litellm/pull/42138",
           "state": "open",
-          "updated": "2026-09-20"
+          "updated": "2026-09-22"
         },
         {
           "number": 42134,
           "title": "fix(gemini): keep grounding citations on streamed responses",
           "url": "https://github.com/BerriAI/litellm/pull/42134",
           "state": "open",
-          "updated": "2026-09-20"
+          "updated": "2026-09-22"
         },
         {
           "number": 42129,
@@ -337,7 +344,7 @@
           "title": "fix(qdrant): restore search instrumentation on qdrant-client >= 1.12",
           "url": "https://github.com/traceloop/openllmetry/pull/4470",
           "state": "open",
-          "updated": "2026-09-13"
+          "updated": "2026-09-22"
         }
       ],
       "total": 1
