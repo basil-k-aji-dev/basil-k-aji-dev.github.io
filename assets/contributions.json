@@ -1,36 +1,36 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-23T02:50:07Z",
+  "generated": "2026-09-23T15:55:34Z",
   "excludes_own_repos": true,
-  "merged": 15,
-  "in_review": 19,
-  "repo_count": 14,
-  "all_prs_including_own": 55,
+  "merged": 16,
+  "in_review": 20,
+  "repo_count": 13,
+  "all_prs_including_own": 58,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
-      "merged": 6,
-      "open": 2,
+      "merged": 7,
+      "open": 1,
       "prs": [
+        {
+          "number": 1490,
+          "title": "feat(session): add 'ocr session rm' to delete a saved session",
+          "url": "https://github.com/alibaba/open-code-review/pull/1490",
+          "state": "merged",
+          "updated": "2026-09-23"
+        },
+        {
+          "number": 1541,
+          "title": "docs(review): correct the default exclude list and test it against the json",
+          "url": "https://github.com/alibaba/open-code-review/pull/1541",
+          "state": "open",
+          "updated": "2026-09-23"
+        },
         {
           "number": 1499,
           "title": "fix(config): exclude dependency and build-output directories by default",
           "url": "https://github.com/alibaba/open-code-review/pull/1499",
           "state": "merged",
-          "updated": "2026-09-22"
-        },
-        {
-          "number": 1541,
-          "title": "docs(review): generate the exclude list from the json it documents",
-          "url": "https://github.com/alibaba/open-code-review/pull/1541",
-          "state": "open",
-          "updated": "2026-09-22"
-        },
-        {
-          "number": 1490,
-          "title": "feat(session): add 'ocr session rm' to delete a saved session",
-          "url": "https://github.com/alibaba/open-code-review/pull/1490",
-          "state": "open",
           "updated": "2026-09-22"
         },
         {
@@ -124,26 +124,33 @@
     {
       "repo": "BerriAI/litellm",
       "merged": 0,
-      "open": 4,
+      "open": 5,
       "prs": [
+        {
+          "number": 42670,
+          "title": "test(proxy): stop litellm.max_budget leaking out of the proxy budget tests",
+          "url": "https://github.com/BerriAI/litellm/pull/42670",
+          "state": "open",
+          "updated": "2026-09-23"
+        },
         {
           "number": 42140,
           "title": "feat(streaming): opt-in strict_stream_completion for truncated streams",
           "url": "https://github.com/BerriAI/litellm/pull/42140",
           "state": "open",
-          "updated": "2026-09-22"
-        },
-        {
-          "number": 42138,
-          "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
-          "url": "https://github.com/BerriAI/litellm/pull/42138",
-          "state": "open",
-          "updated": "2026-09-22"
+          "updated": "2026-09-23"
         },
         {
           "number": 42134,
           "title": "fix(gemini): keep grounding citations on streamed responses",
           "url": "https://github.com/BerriAI/litellm/pull/42134",
+          "state": "open",
+          "updated": "2026-09-23"
+        },
+        {
+          "number": 42138,
+          "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
+          "url": "https://github.com/BerriAI/litellm/pull/42138",
           "state": "open",
           "updated": "2026-09-22"
         },
@@ -155,7 +162,7 @@
           "updated": "2026-09-20"
         }
       ],
-      "total": 4
+      "total": 5
     },
     {
       "repo": "jingyaogong/minimind",
@@ -187,6 +194,35 @@
       "total": 3
     },
     {
+      "repo": "maximhq/bifrost",
+      "merged": 2,
+      "open": 1,
+      "prs": [
+        {
+          "number": 7465,
+          "title": "fix(logstore): create a column's declared indexes when a migration adds it",
+          "url": "https://github.com/maximhq/bifrost/pull/7465",
+          "state": "open",
+          "updated": "2026-09-23"
+        },
+        {
+          "number": 7360,
+          "title": "fix(bedrock): keep cache_control when a message's content is a string",
+          "url": "https://github.com/maximhq/bifrost/pull/7360",
+          "state": "merged",
+          "updated": "2026-09-20"
+        },
+        {
+          "number": 7348,
+          "title": "fix(anthropic): carry allowed_tools and parallel_tool_calls into the request",
+          "url": "https://github.com/maximhq/bifrost/pull/7348",
+          "state": "merged",
+          "updated": "2026-09-20"
+        }
+      ],
+      "total": 3
+    },
+    {
       "repo": "JustVugg/colibri",
       "merged": 2,
       "open": 0,
@@ -209,21 +245,21 @@
       "total": 2
     },
     {
-      "repo": "maximhq/bifrost",
-      "merged": 2,
-      "open": 0,
+      "repo": "Tencent/BrowserSkill",
+      "merged": 1,
+      "open": 1,
       "prs": [
         {
-          "number": 7360,
-          "title": "fix(bedrock): keep cache_control when a message's content is a string",
-          "url": "https://github.com/maximhq/bifrost/pull/7360",
-          "state": "merged",
-          "updated": "2026-09-20"
+          "number": 330,
+          "title": "fix(extension): evict tabs that enter an Agent Window without belonging to it",
+          "url": "https://github.com/Tencent/BrowserSkill/pull/330",
+          "state": "open",
+          "updated": "2026-09-23"
         },
         {
-          "number": 7348,
-          "title": "fix(anthropic): carry allowed_tools and parallel_tool_calls into the request",
-          "url": "https://github.com/maximhq/bifrost/pull/7348",
+          "number": 289,
+          "title": "docs(skill): say that page content is data, never instructions",
+          "url": "https://github.com/Tencent/BrowserSkill/pull/289",
           "state": "merged",
           "updated": "2026-09-20"
         }
@@ -263,21 +299,6 @@
           "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
           "state": "merged",
           "updated": "2026-09-17"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "Tencent/BrowserSkill",
-      "merged": 1,
-      "open": 0,
-      "prs": [
-        {
-          "number": 289,
-          "title": "docs(skill): say that page content is data, never instructions",
-          "url": "https://github.com/Tencent/BrowserSkill/pull/289",
-          "state": "merged",
-          "updated": "2026-09-20"
         }
       ],
       "total": 1
@@ -338,21 +359,6 @@
           "url": "https://github.com/traceloop/openllmetry/pull/4470",
           "state": "open",
           "updated": "2026-09-22"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "vxcontrol/pentagi",
-      "merged": 0,
-      "open": 1,
-      "prs": [
-        {
-          "number": 416,
-          "title": "fix(providers): clamp max_tokens to the model context window",
-          "url": "https://github.com/vxcontrol/pentagi/pull/416",
-          "state": "open",
-          "updated": "2026-09-14"
         }
       ],
       "total": 1
