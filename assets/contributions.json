@@ -1,16 +1,16 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-22T16:05:22Z",
+  "generated": "2026-09-23T02:50:07Z",
   "excludes_own_repos": true,
   "merged": 15,
-  "in_review": 20,
+  "in_review": 19,
   "repo_count": 14,
   "all_prs_including_own": 55,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
       "merged": 6,
-      "open": 3,
+      "open": 2,
       "prs": [
         {
           "number": 1499,
@@ -55,13 +55,6 @@
           "updated": "2026-09-20"
         },
         {
-          "number": 1233,
-          "title": "fix(llm): preserve opaque tool-call fields across OpenAI-compatible turns",
-          "url": "https://github.com/alibaba/open-code-review/pull/1233",
-          "state": "open",
-          "updated": "2026-09-19"
-        },
-        {
           "number": 1232,
           "title": "fix(rules): route Python stub files to the Python review rules",
           "url": "https://github.com/alibaba/open-code-review/pull/1232",
@@ -76,7 +69,7 @@
           "updated": "2026-09-14"
         }
       ],
-      "total": 9
+      "total": 8
     },
     {
       "repo": "openlit/openlit",
