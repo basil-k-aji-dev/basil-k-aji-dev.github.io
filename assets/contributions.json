@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-23T15:55:34Z",
+  "generated": "2026-09-24T02:40:11Z",
   "excludes_own_repos": true,
   "merged": 16,
-  "in_review": 20,
-  "repo_count": 13,
-  "all_prs_including_own": 58,
+  "in_review": 24,
+  "repo_count": 15,
+  "all_prs_including_own": 63,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
@@ -122,21 +122,64 @@
       "total": 6
     },
     {
-      "repo": "BerriAI/litellm",
-      "merged": 0,
-      "open": 5,
+      "repo": "maximhq/bifrost",
+      "merged": 2,
+      "open": 3,
       "prs": [
         {
-          "number": 42670,
-          "title": "test(proxy): stop litellm.max_budget leaking out of the proxy budget tests",
-          "url": "https://github.com/BerriAI/litellm/pull/42670",
+          "number": 7471,
+          "title": "fix(ui): stop a per-user-headers catalog entry seeding an empty static header",
+          "url": "https://github.com/maximhq/bifrost/pull/7471",
           "state": "open",
           "updated": "2026-09-23"
         },
         {
+          "number": 7466,
+          "title": "fix(logging): honor store_raw_request_response when updating a log entry",
+          "url": "https://github.com/maximhq/bifrost/pull/7466",
+          "state": "open",
+          "updated": "2026-09-23"
+        },
+        {
+          "number": 7465,
+          "title": "fix(logstore): create a column's declared indexes when a migration adds it",
+          "url": "https://github.com/maximhq/bifrost/pull/7465",
+          "state": "open",
+          "updated": "2026-09-23"
+        },
+        {
+          "number": 7360,
+          "title": "fix(bedrock): keep cache_control when a message's content is a string",
+          "url": "https://github.com/maximhq/bifrost/pull/7360",
+          "state": "merged",
+          "updated": "2026-09-20"
+        },
+        {
+          "number": 7348,
+          "title": "fix(anthropic): carry allowed_tools and parallel_tool_calls into the request",
+          "url": "https://github.com/maximhq/bifrost/pull/7348",
+          "state": "merged",
+          "updated": "2026-09-20"
+        }
+      ],
+      "total": 5
+    },
+    {
+      "repo": "BerriAI/litellm",
+      "merged": 0,
+      "open": 4,
+      "prs": [
+        {
           "number": 42140,
           "title": "feat(streaming): opt-in strict_stream_completion for truncated streams",
           "url": "https://github.com/BerriAI/litellm/pull/42140",
+          "state": "open",
+          "updated": "2026-09-23"
+        },
+        {
+          "number": 42138,
+          "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
+          "url": "https://github.com/BerriAI/litellm/pull/42138",
           "state": "open",
           "updated": "2026-09-23"
         },
@@ -148,21 +191,14 @@
           "updated": "2026-09-23"
         },
         {
-          "number": 42138,
-          "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
-          "url": "https://github.com/BerriAI/litellm/pull/42138",
-          "state": "open",
-          "updated": "2026-09-22"
-        },
-        {
           "number": 42129,
           "title": "test(responses): pin the chat bridge's multi-turn replay invariants",
           "url": "https://github.com/BerriAI/litellm/pull/42129",
           "state": "open",
-          "updated": "2026-09-20"
+          "updated": "2026-09-23"
         }
       ],
-      "total": 5
+      "total": 4
     },
     {
       "repo": "jingyaogong/minimind",
@@ -194,30 +230,30 @@
       "total": 3
     },
     {
-      "repo": "maximhq/bifrost",
-      "merged": 2,
-      "open": 1,
+      "repo": "google/artemis",
+      "merged": 0,
+      "open": 3,
       "prs": [
         {
-          "number": 7465,
-          "title": "fix(logstore): create a column's declared indexes when a migration adds it",
-          "url": "https://github.com/maximhq/bifrost/pull/7465",
+          "number": 150,
+          "title": "Add the NOTICE file Apache 2.0 section 4(d) requires",
+          "url": "https://github.com/google/artemis/pull/150",
           "state": "open",
           "updated": "2026-09-23"
         },
         {
-          "number": 7360,
-          "title": "fix(bedrock): keep cache_control when a message's content is a string",
-          "url": "https://github.com/maximhq/bifrost/pull/7360",
-          "state": "merged",
+          "number": 84,
+          "title": "fix(client): reject nonpositive wait controls before submitting a task",
+          "url": "https://github.com/google/artemis/pull/84",
+          "state": "open",
           "updated": "2026-09-20"
         },
         {
-          "number": 7348,
-          "title": "fix(anthropic): carry allowed_tools and parallel_tool_calls into the request",
-          "url": "https://github.com/maximhq/bifrost/pull/7348",
-          "state": "merged",
-          "updated": "2026-09-20"
+          "number": 98,
+          "title": "test(mcp): let the emulator win32 branch be exercised from any host",
+          "url": "https://github.com/google/artemis/pull/98",
+          "state": "open",
+          "updated": "2026-09-14"
         }
       ],
       "total": 3
@@ -267,28 +303,6 @@
       "total": 2
     },
     {
-      "repo": "google/artemis",
-      "merged": 0,
-      "open": 2,
-      "prs": [
-        {
-          "number": 84,
-          "title": "fix(client): reject nonpositive wait controls before submitting a task",
-          "url": "https://github.com/google/artemis/pull/84",
-          "state": "open",
-          "updated": "2026-09-20"
-        },
-        {
-          "number": 98,
-          "title": "test(mcp): let the emulator win32 branch be exercised from any host",
-          "url": "https://github.com/google/artemis/pull/98",
-          "state": "open",
-          "updated": "2026-09-14"
-        }
-      ],
-      "total": 2
-    },
-    {
       "repo": "debpalash/VoiceStudio",
       "merged": 1,
       "open": 0,
@@ -299,6 +313,21 @@
           "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
           "state": "merged",
           "updated": "2026-09-17"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "deeplethe/utopia",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 892,
+          "title": "Retry at the ceiling the endpoint states when it refuses ours",
+          "url": "https://github.com/deeplethe/utopia/pull/892",
+          "state": "open",
+          "updated": "2026-09-23"
         }
       ],
       "total": 1
@@ -329,6 +358,21 @@
           "url": "https://github.com/neo4j-labs/create-context-graph/pull/64",
           "state": "open",
           "updated": "2026-09-14"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "OpenHands/OpenHands",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 17655,
+          "title": "fix(electron): state sandbox: true on both BrowserWindow webPreferences",
+          "url": "https://github.com/OpenHands/OpenHands/pull/17655",
+          "state": "open",
+          "updated": "2026-09-23"
         }
       ],
       "total": 1
