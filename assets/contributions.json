@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-26T03:00:08Z",
+  "generated": "2026-09-26T15:32:12Z",
   "excludes_own_repos": true,
   "merged": 16,
-  "in_review": 24,
-  "repo_count": 14,
-  "all_prs_including_own": 64,
+  "in_review": 27,
+  "repo_count": 16,
+  "all_prs_including_own": 67,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
@@ -72,66 +72,23 @@
       "total": 8
     },
     {
-      "repo": "openlit/openlit",
-      "merged": 0,
-      "open": 6,
-      "prs": [
-        {
-          "number": 1617,
-          "title": "fix(cli): resolve the newest cli-* release instead of /releases/latest",
-          "url": "https://github.com/openlit/openlit/pull/1617",
-          "state": "open",
-          "updated": "2026-09-19"
-        },
-        {
-          "number": 1613,
-          "title": "fix(groq): the async close override must be named close, not aclose",
-          "url": "https://github.com/openlit/openlit/pull/1613",
-          "state": "open",
-          "updated": "2026-09-19"
-        },
-        {
-          "number": 1612,
-          "title": "fix(browser_use/crawl4ai): record operation duration in seconds",
-          "url": "https://github.com/openlit/openlit/pull/1612",
-          "state": "open",
-          "updated": "2026-09-19"
-        },
-        {
-          "number": 1611,
-          "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
-          "url": "https://github.com/openlit/openlit/pull/1611",
-          "state": "open",
-          "updated": "2026-09-19"
-        },
-        {
-          "number": 1610,
-          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
-          "url": "https://github.com/openlit/openlit/pull/1610",
-          "state": "open",
-          "updated": "2026-09-19"
-        },
-        {
-          "number": 1566,
-          "title": "fix(together): bind instrumentation to together 2.x resource classes",
-          "url": "https://github.com/openlit/openlit/pull/1566",
-          "state": "open",
-          "updated": "2026-09-13"
-        }
-      ],
-      "total": 6
-    },
-    {
       "repo": "maximhq/bifrost",
       "merged": 2,
-      "open": 3,
+      "open": 4,
       "prs": [
+        {
+          "number": 7594,
+          "title": "fix(ui): seed chart containers with a positive initial dimension",
+          "url": "https://github.com/maximhq/bifrost/pull/7594",
+          "state": "open",
+          "updated": "2026-09-26"
+        },
         {
           "number": 7465,
           "title": "fix(logstore): create a column's declared indexes when a migration adds it",
           "url": "https://github.com/maximhq/bifrost/pull/7465",
           "state": "open",
-          "updated": "2026-09-25"
+          "updated": "2026-09-26"
         },
         {
           "number": 7471,
@@ -162,7 +119,57 @@
           "updated": "2026-09-20"
         }
       ],
-      "total": 5
+      "total": 6
+    },
+    {
+      "repo": "openlit/openlit",
+      "merged": 0,
+      "open": 6,
+      "prs": [
+        {
+          "number": 1612,
+          "title": "fix(browser_use/crawl4ai): record operation duration in seconds",
+          "url": "https://github.com/openlit/openlit/pull/1612",
+          "state": "open",
+          "updated": "2026-09-26"
+        },
+        {
+          "number": 1617,
+          "title": "fix(cli): resolve the newest cli-* release instead of /releases/latest",
+          "url": "https://github.com/openlit/openlit/pull/1617",
+          "state": "open",
+          "updated": "2026-09-19"
+        },
+        {
+          "number": 1613,
+          "title": "fix(groq): the async close override must be named close, not aclose",
+          "url": "https://github.com/openlit/openlit/pull/1613",
+          "state": "open",
+          "updated": "2026-09-19"
+        },
+        {
+          "number": 1611,
+          "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
+          "url": "https://github.com/openlit/openlit/pull/1611",
+          "state": "open",
+          "updated": "2026-09-19"
+        },
+        {
+          "number": 1610,
+          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
+          "url": "https://github.com/openlit/openlit/pull/1610",
+          "state": "open",
+          "updated": "2026-09-19"
+        },
+        {
+          "number": 1566,
+          "title": "fix(together): bind instrumentation to together 2.x resource classes",
+          "url": "https://github.com/openlit/openlit/pull/1566",
+          "state": "open",
+          "updated": "2026-09-13"
+        }
+      ],
+      "total": 6
     },
     {
       "repo": "BerriAI/litellm",
@@ -170,32 +177,32 @@
       "open": 4,
       "prs": [
         {
-          "number": 42138,
-          "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
-          "url": "https://github.com/BerriAI/litellm/pull/42138",
-          "state": "open",
-          "updated": "2026-09-24"
-        },
-        {
           "number": 42140,
           "title": "feat(streaming): opt-in strict_stream_completion for truncated streams",
           "url": "https://github.com/BerriAI/litellm/pull/42140",
           "state": "open",
-          "updated": "2026-09-23"
+          "updated": "2026-09-26"
+        },
+        {
+          "number": 42138,
+          "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
+          "url": "https://github.com/BerriAI/litellm/pull/42138",
+          "state": "open",
+          "updated": "2026-09-26"
         },
         {
           "number": 42134,
           "title": "fix(gemini): keep grounding citations on streamed responses",
           "url": "https://github.com/BerriAI/litellm/pull/42134",
           "state": "open",
-          "updated": "2026-09-23"
+          "updated": "2026-09-26"
         },
         {
           "number": 42129,
           "title": "test(responses): pin the chat bridge's multi-turn replay invariants",
           "url": "https://github.com/BerriAI/litellm/pull/42129",
           "state": "open",
-          "updated": "2026-09-23"
+          "updated": "2026-09-26"
         }
       ],
       "total": 4
@@ -370,6 +377,21 @@
       "total": 1
     },
     {
+      "repo": "paperclipai/paperclip",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 14129,
+          "title": "fix(adapter-utils): correct the PATH join and the PATHEXT lookup in the managed git launcher",
+          "url": "https://github.com/paperclipai/paperclip/pull/14129",
+          "state": "open",
+          "updated": "2026-09-26"
+        }
+      ],
+      "total": 1
+    },
+    {
       "repo": "rylena/sshdesk",
       "merged": 0,
       "open": 1,
@@ -385,6 +407,21 @@
       "total": 1
     },
     {
+      "repo": "tigerless-labs/autoharness",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 169,
+          "title": "fix(dispatch): guard the 3.11 floor before the module-level import chain",
+          "url": "https://github.com/tigerless-labs/autoharness/pull/169",
+          "state": "open",
+          "updated": "2026-09-26"
+        }
+      ],
+      "total": 1
+    },
+    {
       "repo": "traceloop/openllmetry",
       "merged": 0,
       "open": 1,
@@ -394,7 +431,7 @@
           "title": "fix(qdrant): restore search instrumentation on qdrant-client >= 1.12",
           "url": "https://github.com/traceloop/openllmetry/pull/4470",
           "state": "open",
-          "updated": "2026-09-22"
+          "updated": "2026-09-26"
         }
       ],
       "total": 1
