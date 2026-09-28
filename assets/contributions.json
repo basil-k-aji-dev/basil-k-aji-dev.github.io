@@ -1,17 +1,24 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-28T03:02:35Z",
+  "generated": "2026-09-28T19:05:49Z",
   "excludes_own_repos": true,
   "merged": 16,
-  "in_review": 27,
-  "repo_count": 16,
-  "all_prs_including_own": 67,
+  "in_review": 30,
+  "repo_count": 17,
+  "all_prs_including_own": 70,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
       "merged": 7,
-      "open": 1,
+      "open": 2,
       "prs": [
+        {
+          "number": 1598,
+          "title": "fix(scan): treat \".\" as the repository root and convert separators first",
+          "url": "https://github.com/alibaba/open-code-review/pull/1598",
+          "state": "open",
+          "updated": "2026-09-28"
+        },
         {
           "number": 1490,
           "title": "feat(session): add 'ocr session rm' to delete a saved session",
@@ -69,13 +76,20 @@
           "updated": "2026-09-14"
         }
       ],
-      "total": 8
+      "total": 9
     },
     {
       "repo": "maximhq/bifrost",
       "merged": 2,
-      "open": 4,
+      "open": 5,
       "prs": [
+        {
+          "number": 7640,
+          "title": "fix(mcp): keep the upstream isError flag on gateway tool results",
+          "url": "https://github.com/maximhq/bifrost/pull/7640",
+          "state": "open",
+          "updated": "2026-09-28"
+        },
         {
           "number": 7594,
           "title": "fix(ui): seed chart containers with a positive initial dimension",
@@ -119,7 +133,7 @@
           "updated": "2026-09-20"
         }
       ],
-      "total": 6
+      "total": 7
     },
     {
       "repo": "openlit/openlit",
@@ -327,6 +341,21 @@
           "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
           "state": "merged",
           "updated": "2026-09-17"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "agno-agi/agno",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 10652,
+          "title": "[fix] ChromaDb.content_hash_exists must not report a failed lookup as absent",
+          "url": "https://github.com/agno-agi/agno/pull/10652",
+          "state": "open",
+          "updated": "2026-09-28"
         }
       ],
       "total": 1
