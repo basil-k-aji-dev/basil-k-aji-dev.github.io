@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-29T03:42:23Z",
+  "generated": "2026-09-29T17:27:35Z",
   "excludes_own_repos": true,
   "merged": 16,
   "in_review": 30,
   "repo_count": 17,
-  "all_prs_including_own": 0,
+  "all_prs_including_own": 70,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
@@ -145,7 +145,7 @@
           "title": "fix(browser_use/crawl4ai): record operation duration in seconds",
           "url": "https://github.com/openlit/openlit/pull/1612",
           "state": "open",
-          "updated": "2026-09-26"
+          "updated": "2026-09-29"
         },
         {
           "number": 1617,
@@ -318,7 +318,7 @@
           "title": "fix(extension): evict tabs that enter an Agent Window without belonging to it",
           "url": "https://github.com/Tencent/BrowserSkill/pull/330",
           "state": "open",
-          "updated": "2026-09-27"
+          "updated": "2026-09-29"
         },
         {
           "number": 289,
@@ -355,7 +355,7 @@
           "title": "[fix] ChromaDb.content_hash_exists must not report a failed lookup as absent",
           "url": "https://github.com/agno-agi/agno/pull/10652",
           "state": "open",
-          "updated": "2026-09-28"
+          "updated": "2026-09-29"
         }
       ],
       "total": 1
