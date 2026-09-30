@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-09-30T03:29:48Z",
+  "generated": "2026-09-30T17:25:05Z",
   "excludes_own_repos": true,
-  "merged": 16,
-  "in_review": 30,
+  "merged": 18,
+  "in_review": 28,
   "repo_count": 17,
   "all_prs_including_own": 70,
   "repos": [
@@ -17,7 +17,7 @@
           "title": "fix(scan): treat \".\" as the repository root and convert separators first",
           "url": "https://github.com/alibaba/open-code-review/pull/1598",
           "state": "open",
-          "updated": "2026-09-28"
+          "updated": "2026-09-30"
         },
         {
           "number": 1490,
@@ -80,22 +80,22 @@
     },
     {
       "repo": "maximhq/bifrost",
-      "merged": 2,
-      "open": 5,
+      "merged": 3,
+      "open": 4,
       "prs": [
+        {
+          "number": 7594,
+          "title": "fix(ui): seed chart containers with a positive initial dimension",
+          "url": "https://github.com/maximhq/bifrost/pull/7594",
+          "state": "merged",
+          "updated": "2026-09-30"
+        },
         {
           "number": 7640,
           "title": "fix(mcp): keep the upstream isError flag on gateway tool results",
           "url": "https://github.com/maximhq/bifrost/pull/7640",
           "state": "open",
           "updated": "2026-09-28"
-        },
-        {
-          "number": 7594,
-          "title": "fix(ui): seed chart containers with a positive initial dimension",
-          "url": "https://github.com/maximhq/bifrost/pull/7594",
-          "state": "open",
-          "updated": "2026-09-27"
         },
         {
           "number": 7465,
@@ -346,6 +346,21 @@
       "total": 1
     },
     {
+      "repo": "tigerless-labs/autoharness",
+      "merged": 1,
+      "open": 0,
+      "prs": [
+        {
+          "number": 169,
+          "title": "fix(dispatch): guard the 3.11 floor before the module-level import chain",
+          "url": "https://github.com/tigerless-labs/autoharness/pull/169",
+          "state": "merged",
+          "updated": "2026-09-30"
+        }
+      ],
+      "total": 1
+    },
+    {
       "repo": "agno-agi/agno",
       "merged": 0,
       "open": 1,
@@ -431,21 +446,6 @@
           "url": "https://github.com/rylena/sshdesk/pull/6",
           "state": "open",
           "updated": "2026-09-13"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "tigerless-labs/autoharness",
-      "merged": 0,
-      "open": 1,
-      "prs": [
-        {
-          "number": 169,
-          "title": "fix(dispatch): guard the 3.11 floor before the module-level import chain",
-          "url": "https://github.com/tigerless-labs/autoharness/pull/169",
-          "state": "open",
-          "updated": "2026-09-26"
         }
       ],
       "total": 1
