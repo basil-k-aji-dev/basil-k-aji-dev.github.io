@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-02T03:34:52Z",
+  "generated": "2026-10-02T17:14:37Z",
   "excludes_own_repos": true,
   "merged": 18,
   "in_review": 28,
   "repo_count": 17,
-  "all_prs_including_own": 70,
+  "all_prs_including_own": 72,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
@@ -84,6 +84,13 @@
       "open": 4,
       "prs": [
         {
+          "number": 7465,
+          "title": "fix(logstore): create a column's declared indexes when a migration adds it",
+          "url": "https://github.com/maximhq/bifrost/pull/7465",
+          "state": "open",
+          "updated": "2026-10-02"
+        },
+        {
           "number": 7594,
           "title": "fix(ui): seed chart containers with a positive initial dimension",
           "url": "https://github.com/maximhq/bifrost/pull/7594",
@@ -96,13 +103,6 @@
           "url": "https://github.com/maximhq/bifrost/pull/7640",
           "state": "open",
           "updated": "2026-09-28"
-        },
-        {
-          "number": 7465,
-          "title": "fix(logstore): create a column's declared indexes when a migration adds it",
-          "url": "https://github.com/maximhq/bifrost/pull/7465",
-          "state": "open",
-          "updated": "2026-09-26"
         },
         {
           "number": 7471,
@@ -195,64 +195,28 @@
           "title": "feat(streaming): opt-in strict_stream_completion for truncated streams",
           "url": "https://github.com/BerriAI/litellm/pull/42140",
           "state": "open",
-          "updated": "2026-09-26"
+          "updated": "2026-10-02"
         },
         {
           "number": 42138,
           "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
           "url": "https://github.com/BerriAI/litellm/pull/42138",
           "state": "open",
-          "updated": "2026-09-26"
+          "updated": "2026-10-02"
         },
         {
           "number": 42134,
           "title": "fix(gemini): keep grounding citations on streamed responses",
           "url": "https://github.com/BerriAI/litellm/pull/42134",
           "state": "open",
-          "updated": "2026-09-26"
+          "updated": "2026-10-02"
         },
         {
           "number": 42129,
           "title": "test(responses): pin the chat bridge's multi-turn replay invariants",
           "url": "https://github.com/BerriAI/litellm/pull/42129",
           "state": "open",
-          "updated": "2026-09-26"
-        }
-      ],
-      "total": 4
-    },
-    {
-      "repo": "google/artemis",
-      "merged": 0,
-      "open": 4,
-      "prs": [
-        {
-          "number": 151,
-          "title": "Honor the configured provider when a node pins its own model",
-          "url": "https://github.com/google/artemis/pull/151",
-          "state": "open",
-          "updated": "2026-09-24"
-        },
-        {
-          "number": 150,
-          "title": "Add the NOTICE file Apache 2.0 section 4(d) requires",
-          "url": "https://github.com/google/artemis/pull/150",
-          "state": "open",
-          "updated": "2026-09-23"
-        },
-        {
-          "number": 84,
-          "title": "fix(client): reject nonpositive wait controls before submitting a task",
-          "url": "https://github.com/google/artemis/pull/84",
-          "state": "open",
-          "updated": "2026-09-20"
-        },
-        {
-          "number": 98,
-          "title": "test(mcp): let the emulator win32 branch be exercised from any host",
-          "url": "https://github.com/google/artemis/pull/98",
-          "state": "open",
-          "updated": "2026-09-14"
+          "updated": "2026-10-02"
         }
       ],
       "total": 4
@@ -282,6 +246,35 @@
           "url": "https://github.com/jingyaogong/minimind/pull/854",
           "state": "merged",
           "updated": "2026-09-14"
+        }
+      ],
+      "total": 3
+    },
+    {
+      "repo": "tigerless-labs/autoharness",
+      "merged": 1,
+      "open": 2,
+      "prs": [
+        {
+          "number": 193,
+          "title": "fix(intent_queue): serialize appends so a large intent cannot tear",
+          "url": "https://github.com/tigerless-labs/autoharness/pull/193",
+          "state": "open",
+          "updated": "2026-10-02"
+        },
+        {
+          "number": 192,
+          "title": "fix(capture): seek past the offset instead of reading the whole transcript",
+          "url": "https://github.com/tigerless-labs/autoharness/pull/192",
+          "state": "open",
+          "updated": "2026-10-02"
+        },
+        {
+          "number": 169,
+          "title": "fix(dispatch): guard the 3.11 floor before the module-level import chain",
+          "url": "https://github.com/tigerless-labs/autoharness/pull/169",
+          "state": "merged",
+          "updated": "2026-09-30"
         }
       ],
       "total": 3
@@ -331,6 +324,28 @@
       "total": 2
     },
     {
+      "repo": "google/artemis",
+      "merged": 0,
+      "open": 2,
+      "prs": [
+        {
+          "number": 151,
+          "title": "Honor the configured provider when a node pins its own model",
+          "url": "https://github.com/google/artemis/pull/151",
+          "state": "open",
+          "updated": "2026-09-24"
+        },
+        {
+          "number": 84,
+          "title": "fix(client): reject nonpositive wait controls before submitting a task",
+          "url": "https://github.com/google/artemis/pull/84",
+          "state": "open",
+          "updated": "2026-09-20"
+        }
+      ],
+      "total": 2
+    },
+    {
       "repo": "debpalash/VoiceStudio",
       "merged": 1,
       "open": 0,
@@ -341,21 +356,6 @@
           "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
           "state": "merged",
           "updated": "2026-09-17"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "tigerless-labs/autoharness",
-      "merged": 1,
-      "open": 0,
-      "prs": [
-        {
-          "number": 169,
-          "title": "fix(dispatch): guard the 3.11 floor before the module-level import chain",
-          "url": "https://github.com/tigerless-labs/autoharness/pull/169",
-          "state": "merged",
-          "updated": "2026-09-30"
         }
       ],
       "total": 1
@@ -430,7 +430,7 @@
           "title": "fix(adapter-utils): correct the PATH join and the PATHEXT lookup in the managed git launcher",
           "url": "https://github.com/paperclipai/paperclip/pull/14129",
           "state": "open",
-          "updated": "2026-09-26"
+          "updated": "2026-10-02"
         }
       ],
       "total": 1
