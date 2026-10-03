@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-03T03:19:07Z",
+  "generated": "2026-10-03T15:33:28Z",
   "excludes_own_repos": true,
   "merged": 18,
-  "in_review": 28,
-  "repo_count": 17,
-  "all_prs_including_own": 72,
+  "in_review": 31,
+  "repo_count": 19,
+  "all_prs_including_own": 75,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
@@ -88,7 +88,7 @@
           "title": "fix(logstore): create a column's declared indexes when a migration adds it",
           "url": "https://github.com/maximhq/bifrost/pull/7465",
           "state": "open",
-          "updated": "2026-10-02"
+          "updated": "2026-10-03"
         },
         {
           "number": 7594,
@@ -195,14 +195,14 @@
           "title": "feat(streaming): opt-in strict_stream_completion for truncated streams",
           "url": "https://github.com/BerriAI/litellm/pull/42140",
           "state": "open",
-          "updated": "2026-10-02"
+          "updated": "2026-10-03"
         },
         {
           "number": 42138,
           "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
           "url": "https://github.com/BerriAI/litellm/pull/42138",
           "state": "open",
-          "updated": "2026-10-02"
+          "updated": "2026-10-03"
         },
         {
           "number": 42134,
@@ -346,6 +346,28 @@
       "total": 2
     },
     {
+      "repo": "t8y2/dbx",
+      "merged": 0,
+      "open": 2,
+      "prs": [
+        {
+          "number": 11000,
+          "title": "fix(mcp): report an unopenable store in protocol instead of exiting silently",
+          "url": "https://github.com/t8y2/dbx/pull/11000",
+          "state": "open",
+          "updated": "2026-10-03"
+        },
+        {
+          "number": 10998,
+          "title": "fix(redis): block FLUSHDB in MCP instead of running it unconfirmed",
+          "url": "https://github.com/t8y2/dbx/pull/10998",
+          "state": "open",
+          "updated": "2026-10-03"
+        }
+      ],
+      "total": 2
+    },
+    {
       "repo": "debpalash/VoiceStudio",
       "merged": 1,
       "open": 0,
@@ -356,6 +378,21 @@
           "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
           "state": "merged",
           "updated": "2026-09-17"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "affaan-m/ECC",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 3416,
+          "title": "fix(hooks): honor CLAUDE_CONFIG_DIR instead of writing to ~/.claude",
+          "url": "https://github.com/affaan-m/ECC/pull/3416",
+          "state": "open",
+          "updated": "2026-10-03"
         }
       ],
       "total": 1
@@ -415,7 +452,7 @@
           "title": "fix(electron): state sandbox: true on both BrowserWindow webPreferences",
           "url": "https://github.com/OpenHands/OpenHands/pull/17655",
           "state": "open",
-          "updated": "2026-09-23"
+          "updated": "2026-10-03"
         }
       ],
       "total": 1
@@ -430,7 +467,7 @@
           "title": "fix(adapter-utils): correct the PATH join and the PATHEXT lookup in the managed git launcher",
           "url": "https://github.com/paperclipai/paperclip/pull/14129",
           "state": "open",
-          "updated": "2026-10-02"
+          "updated": "2026-10-03"
         }
       ],
       "total": 1
