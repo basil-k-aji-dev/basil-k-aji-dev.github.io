@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-03T15:33:28Z",
+  "generated": "2026-10-04T03:47:06Z",
   "excludes_own_repos": true,
-  "merged": 18,
-  "in_review": 31,
+  "merged": 20,
+  "in_review": 29,
   "repo_count": 19,
   "all_prs_including_own": 75,
   "repos": [
@@ -302,6 +302,28 @@
       "total": 2
     },
     {
+      "repo": "t8y2/dbx",
+      "merged": 2,
+      "open": 0,
+      "prs": [
+        {
+          "number": 11000,
+          "title": "fix(mcp): report an unopenable store in protocol instead of exiting silently",
+          "url": "https://github.com/t8y2/dbx/pull/11000",
+          "state": "merged",
+          "updated": "2026-10-03"
+        },
+        {
+          "number": 10998,
+          "title": "fix(redis): block FLUSHDB in MCP instead of running it unconfirmed",
+          "url": "https://github.com/t8y2/dbx/pull/10998",
+          "state": "merged",
+          "updated": "2026-10-03"
+        }
+      ],
+      "total": 2
+    },
+    {
       "repo": "Tencent/BrowserSkill",
       "merged": 1,
       "open": 1,
@@ -341,28 +363,6 @@
           "url": "https://github.com/google/artemis/pull/84",
           "state": "open",
           "updated": "2026-09-20"
-        }
-      ],
-      "total": 2
-    },
-    {
-      "repo": "t8y2/dbx",
-      "merged": 0,
-      "open": 2,
-      "prs": [
-        {
-          "number": 11000,
-          "title": "fix(mcp): report an unopenable store in protocol instead of exiting silently",
-          "url": "https://github.com/t8y2/dbx/pull/11000",
-          "state": "open",
-          "updated": "2026-10-03"
-        },
-        {
-          "number": 10998,
-          "title": "fix(redis): block FLUSHDB in MCP instead of running it unconfirmed",
-          "url": "https://github.com/t8y2/dbx/pull/10998",
-          "state": "open",
-          "updated": "2026-10-03"
         }
       ],
       "total": 2
