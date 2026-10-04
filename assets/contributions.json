@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-04T03:47:06Z",
+  "generated": "2026-10-04T16:17:26Z",
   "excludes_own_repos": true,
   "merged": 20,
-  "in_review": 29,
+  "in_review": 30,
   "repo_count": 19,
-  "all_prs_including_own": 75,
+  "all_prs_including_own": 76,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
@@ -251,6 +251,35 @@
       "total": 3
     },
     {
+      "repo": "Tencent/BrowserSkill",
+      "merged": 1,
+      "open": 2,
+      "prs": [
+        {
+          "number": 394,
+          "title": "fix: state the untrusted-input rule without the vocabulary guards match on",
+          "url": "https://github.com/Tencent/BrowserSkill/pull/394",
+          "state": "open",
+          "updated": "2026-10-04"
+        },
+        {
+          "number": 330,
+          "title": "fix(extension): evict tabs that enter an Agent Window without belonging to it",
+          "url": "https://github.com/Tencent/BrowserSkill/pull/330",
+          "state": "open",
+          "updated": "2026-09-29"
+        },
+        {
+          "number": 289,
+          "title": "docs(skill): say that page content is data, never instructions",
+          "url": "https://github.com/Tencent/BrowserSkill/pull/289",
+          "state": "merged",
+          "updated": "2026-09-20"
+        }
+      ],
+      "total": 3
+    },
+    {
       "repo": "tigerless-labs/autoharness",
       "merged": 1,
       "open": 2,
@@ -324,28 +353,6 @@
       "total": 2
     },
     {
-      "repo": "Tencent/BrowserSkill",
-      "merged": 1,
-      "open": 1,
-      "prs": [
-        {
-          "number": 330,
-          "title": "fix(extension): evict tabs that enter an Agent Window without belonging to it",
-          "url": "https://github.com/Tencent/BrowserSkill/pull/330",
-          "state": "open",
-          "updated": "2026-09-29"
-        },
-        {
-          "number": 289,
-          "title": "docs(skill): say that page content is data, never instructions",
-          "url": "https://github.com/Tencent/BrowserSkill/pull/289",
-          "state": "merged",
-          "updated": "2026-09-20"
-        }
-      ],
-      "total": 2
-    },
-    {
       "repo": "google/artemis",
       "merged": 0,
       "open": 2,
@@ -392,7 +399,7 @@
           "title": "fix(hooks): honor CLAUDE_CONFIG_DIR instead of writing to ~/.claude",
           "url": "https://github.com/affaan-m/ECC/pull/3416",
           "state": "open",
-          "updated": "2026-10-03"
+          "updated": "2026-10-04"
         }
       ],
       "total": 1
