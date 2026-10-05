@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-04T16:17:26Z",
+  "generated": "2026-10-05T03:31:38Z",
   "excludes_own_repos": true,
   "merged": 20,
   "in_review": 30,
@@ -474,7 +474,7 @@
           "title": "fix(adapter-utils): correct the PATH join and the PATHEXT lookup in the managed git launcher",
           "url": "https://github.com/paperclipai/paperclip/pull/14129",
           "state": "open",
-          "updated": "2026-10-03"
+          "updated": "2026-10-05"
         }
       ],
       "total": 1
