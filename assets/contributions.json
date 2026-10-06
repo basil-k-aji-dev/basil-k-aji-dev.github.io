@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-05T03:31:38Z",
+  "generated": "2026-10-06T04:19:20Z",
   "excludes_own_repos": true,
   "merged": 20,
   "in_review": 30,
@@ -84,6 +84,13 @@
       "open": 4,
       "prs": [
         {
+          "number": 7640,
+          "title": "fix(mcp): keep the upstream isError flag on gateway tool results",
+          "url": "https://github.com/maximhq/bifrost/pull/7640",
+          "state": "open",
+          "updated": "2026-10-05"
+        },
+        {
           "number": 7465,
           "title": "fix(logstore): create a column's declared indexes when a migration adds it",
           "url": "https://github.com/maximhq/bifrost/pull/7465",
@@ -96,13 +103,6 @@
           "url": "https://github.com/maximhq/bifrost/pull/7594",
           "state": "merged",
           "updated": "2026-09-30"
-        },
-        {
-          "number": 7640,
-          "title": "fix(mcp): keep the upstream isError flag on gateway tool results",
-          "url": "https://github.com/maximhq/bifrost/pull/7640",
-          "state": "open",
-          "updated": "2026-09-28"
         },
         {
           "number": 7471,
@@ -145,7 +145,21 @@
           "title": "fix(browser_use/crawl4ai): record operation duration in seconds",
           "url": "https://github.com/openlit/openlit/pull/1612",
           "state": "open",
-          "updated": "2026-09-30"
+          "updated": "2026-10-05"
+        },
+        {
+          "number": 1610,
+          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
+          "url": "https://github.com/openlit/openlit/pull/1610",
+          "state": "open",
+          "updated": "2026-10-05"
+        },
+        {
+          "number": 1566,
+          "title": "fix(together): bind instrumentation to together 2.x resource classes",
+          "url": "https://github.com/openlit/openlit/pull/1566",
+          "state": "open",
+          "updated": "2026-10-05"
         },
         {
           "number": 1617,
@@ -167,20 +181,6 @@
           "url": "https://github.com/openlit/openlit/pull/1611",
           "state": "open",
           "updated": "2026-09-19"
-        },
-        {
-          "number": 1610,
-          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
-          "url": "https://github.com/openlit/openlit/pull/1610",
-          "state": "open",
-          "updated": "2026-09-19"
-        },
-        {
-          "number": 1566,
-          "title": "fix(together): bind instrumentation to together 2.x resource classes",
-          "url": "https://github.com/openlit/openlit/pull/1566",
-          "state": "open",
-          "updated": "2026-09-13"
         }
       ],
       "total": 6
@@ -195,28 +195,28 @@
           "title": "feat(streaming): opt-in strict_stream_completion for truncated streams",
           "url": "https://github.com/BerriAI/litellm/pull/42140",
           "state": "open",
-          "updated": "2026-10-03"
+          "updated": "2026-10-05"
         },
         {
           "number": 42138,
           "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
           "url": "https://github.com/BerriAI/litellm/pull/42138",
           "state": "open",
-          "updated": "2026-10-03"
+          "updated": "2026-10-05"
         },
         {
           "number": 42134,
           "title": "fix(gemini): keep grounding citations on streamed responses",
           "url": "https://github.com/BerriAI/litellm/pull/42134",
           "state": "open",
-          "updated": "2026-10-02"
+          "updated": "2026-10-05"
         },
         {
           "number": 42129,
           "title": "test(responses): pin the chat bridge's multi-turn replay invariants",
           "url": "https://github.com/BerriAI/litellm/pull/42129",
           "state": "open",
-          "updated": "2026-10-02"
+          "updated": "2026-10-05"
         }
       ],
       "total": 4
@@ -459,7 +459,7 @@
           "title": "fix(electron): state sandbox: true on both BrowserWindow webPreferences",
           "url": "https://github.com/OpenHands/OpenHands/pull/17655",
           "state": "open",
-          "updated": "2026-10-03"
+          "updated": "2026-10-05"
         }
       ],
       "total": 1
