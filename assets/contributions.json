@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-07T18:16:27Z",
+  "generated": "2026-10-08T03:59:29Z",
   "excludes_own_repos": true,
-  "merged": 21,
-  "in_review": 30,
+  "merged": 22,
+  "in_review": 29,
   "repo_count": 19,
   "all_prs_including_own": 78,
   "repos": [
@@ -252,15 +252,15 @@
     },
     {
       "repo": "t8y2/dbx",
-      "merged": 2,
-      "open": 1,
+      "merged": 3,
+      "open": 0,
       "prs": [
         {
           "number": 11183,
           "title": "fix(editor): use the configured font in the completion info popup",
           "url": "https://github.com/t8y2/dbx/pull/11183",
-          "state": "open",
-          "updated": "2026-10-07"
+          "state": "merged",
+          "updated": "2026-10-08"
         },
         {
           "number": 11000,
