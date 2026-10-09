@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-09T04:04:36Z",
+  "generated": "2026-10-09T17:50:44Z",
   "excludes_own_repos": true,
-  "merged": 23,
-  "in_review": 28,
+  "merged": 24,
+  "in_review": 27,
   "repo_count": 19,
   "all_prs_including_own": 78,
   "repos": [
@@ -281,22 +281,22 @@
     },
     {
       "repo": "tigerless-labs/autoharness",
-      "merged": 2,
-      "open": 1,
+      "merged": 3,
+      "open": 0,
       "prs": [
+        {
+          "number": 193,
+          "title": "fix(intent_queue): serialize appends so a large intent cannot tear",
+          "url": "https://github.com/tigerless-labs/autoharness/pull/193",
+          "state": "merged",
+          "updated": "2026-10-09"
+        },
         {
           "number": 192,
           "title": "fix(capture): seek past the offset instead of reading the whole transcript",
           "url": "https://github.com/tigerless-labs/autoharness/pull/192",
           "state": "merged",
           "updated": "2026-10-06"
-        },
-        {
-          "number": 193,
-          "title": "fix(intent_queue): serialize appends so a large intent cannot tear",
-          "url": "https://github.com/tigerless-labs/autoharness/pull/193",
-          "state": "open",
-          "updated": "2026-10-02"
         },
         {
           "number": 169,
@@ -318,7 +318,7 @@
           "title": "fix(extension): evict tabs that enter an Agent Window without belonging to it",
           "url": "https://github.com/Tencent/BrowserSkill/pull/330",
           "state": "open",
-          "updated": "2026-10-06"
+          "updated": "2026-10-09"
         },
         {
           "number": 394,
