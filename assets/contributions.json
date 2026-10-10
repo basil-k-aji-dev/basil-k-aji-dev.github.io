@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-09T17:50:44Z",
+  "generated": "2026-10-10T03:49:56Z",
   "excludes_own_repos": true,
   "merged": 24,
   "in_review": 27,
@@ -17,7 +17,7 @@
           "title": "fix(scan): treat \".\" as the repository root and convert separators first",
           "url": "https://github.com/alibaba/open-code-review/pull/1598",
           "state": "merged",
-          "updated": "2026-10-08"
+          "updated": "2026-10-09"
         },
         {
           "number": 1490,
