@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-11T03:23:31Z",
+  "generated": "2026-10-11T17:11:23Z",
   "excludes_own_repos": true,
   "merged": 25,
   "in_review": 26,
@@ -141,6 +141,13 @@
       "open": 6,
       "prs": [
         {
+          "number": 1611,
+          "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
+          "url": "https://github.com/openlit/openlit/pull/1611",
+          "state": "open",
+          "updated": "2026-10-11"
+        },
+        {
           "number": 1612,
           "title": "fix(browser_use/crawl4ai): record operation duration in seconds",
           "url": "https://github.com/openlit/openlit/pull/1612",
@@ -172,13 +179,6 @@
           "number": 1613,
           "title": "fix(groq): the async close override must be named close, not aclose",
           "url": "https://github.com/openlit/openlit/pull/1613",
-          "state": "open",
-          "updated": "2026-09-19"
-        },
-        {
-          "number": 1611,
-          "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
-          "url": "https://github.com/openlit/openlit/pull/1611",
           "state": "open",
           "updated": "2026-09-19"
         }
