@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-12T03:46:47Z",
+  "generated": "2026-10-12T20:43:57Z",
   "excludes_own_repos": true,
   "merged": 25,
   "in_review": 26,
@@ -141,6 +141,13 @@
       "open": 6,
       "prs": [
         {
+          "number": 1610,
+          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
+          "url": "https://github.com/openlit/openlit/pull/1610",
+          "state": "open",
+          "updated": "2026-10-12"
+        },
+        {
           "number": 1611,
           "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
           "url": "https://github.com/openlit/openlit/pull/1611",
@@ -151,13 +158,6 @@
           "number": 1612,
           "title": "fix(browser_use/crawl4ai): record operation duration in seconds",
           "url": "https://github.com/openlit/openlit/pull/1612",
-          "state": "open",
-          "updated": "2026-10-05"
-        },
-        {
-          "number": 1610,
-          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
-          "url": "https://github.com/openlit/openlit/pull/1610",
           "state": "open",
           "updated": "2026-10-05"
         },
@@ -318,7 +318,7 @@
           "title": "fix(extension): evict tabs that enter an Agent Window without belonging to it",
           "url": "https://github.com/Tencent/BrowserSkill/pull/330",
           "state": "open",
-          "updated": "2026-10-09"
+          "updated": "2026-10-12"
         },
         {
           "number": 394,
