@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-13T04:58:35Z",
+  "generated": "2026-10-13T18:45:16Z",
   "excludes_own_repos": true,
-  "merged": 25,
-  "in_review": 26,
+  "merged": 26,
+  "in_review": 25,
   "repo_count": 19,
   "all_prs_including_own": 78,
   "repos": [
@@ -137,9 +137,16 @@
     },
     {
       "repo": "openlit/openlit",
-      "merged": 0,
-      "open": 6,
+      "merged": 1,
+      "open": 5,
       "prs": [
+        {
+          "number": 1566,
+          "title": "fix(together): bind instrumentation to together 2.x resource classes",
+          "url": "https://github.com/openlit/openlit/pull/1566",
+          "state": "merged",
+          "updated": "2026-10-13"
+        },
         {
           "number": 1610,
           "title": "fix(premai): make the streaming wrapper iterable and end its span once",
@@ -158,13 +165,6 @@
           "number": 1612,
           "title": "fix(browser_use/crawl4ai): record operation duration in seconds",
           "url": "https://github.com/openlit/openlit/pull/1612",
-          "state": "open",
-          "updated": "2026-10-05"
-        },
-        {
-          "number": 1566,
-          "title": "fix(together): bind instrumentation to together 2.x resource classes",
-          "url": "https://github.com/openlit/openlit/pull/1566",
           "state": "open",
           "updated": "2026-10-05"
         },
