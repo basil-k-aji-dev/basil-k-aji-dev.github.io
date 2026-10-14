@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-13T18:45:16Z",
+  "generated": "2026-10-14T03:05:32Z",
   "excludes_own_repos": true,
   "merged": 26,
   "in_review": 25,
@@ -195,28 +195,28 @@
           "title": "feat(streaming): opt-in strict_stream_completion for truncated streams",
           "url": "https://github.com/BerriAI/litellm/pull/42140",
           "state": "open",
-          "updated": "2026-10-06"
+          "updated": "2026-10-13"
         },
         {
           "number": 42138,
           "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
           "url": "https://github.com/BerriAI/litellm/pull/42138",
           "state": "open",
-          "updated": "2026-10-05"
+          "updated": "2026-10-13"
         },
         {
           "number": 42134,
           "title": "fix(gemini): keep grounding citations on streamed responses",
           "url": "https://github.com/BerriAI/litellm/pull/42134",
           "state": "open",
-          "updated": "2026-10-05"
+          "updated": "2026-10-13"
         },
         {
           "number": 42129,
           "title": "test(responses): pin the chat bridge's multi-turn replay invariants",
           "url": "https://github.com/BerriAI/litellm/pull/42129",
           "state": "open",
-          "updated": "2026-10-05"
+          "updated": "2026-10-13"
         }
       ],
       "total": 4
