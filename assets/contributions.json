@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-14T16:19:18Z",
+  "generated": "2026-10-15T02:45:20Z",
   "excludes_own_repos": true,
   "merged": 26,
   "in_review": 25,
@@ -141,6 +141,13 @@
       "open": 5,
       "prs": [
         {
+          "number": 1613,
+          "title": "fix(groq): the async close override must be named close, not aclose",
+          "url": "https://github.com/openlit/openlit/pull/1613",
+          "state": "open",
+          "updated": "2026-10-14"
+        },
+        {
           "number": 1566,
           "title": "fix(together): bind instrumentation to together 2.x resource classes",
           "url": "https://github.com/openlit/openlit/pull/1566",
@@ -172,13 +179,6 @@
           "number": 1617,
           "title": "fix(cli): resolve the newest cli-* release instead of /releases/latest",
           "url": "https://github.com/openlit/openlit/pull/1617",
-          "state": "open",
-          "updated": "2026-09-19"
-        },
-        {
-          "number": 1613,
-          "title": "fix(groq): the async close override must be named close, not aclose",
-          "url": "https://github.com/openlit/openlit/pull/1613",
           "state": "open",
           "updated": "2026-09-19"
         }
