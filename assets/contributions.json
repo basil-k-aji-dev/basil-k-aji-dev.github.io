@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-15T02:45:20Z",
+  "generated": "2026-10-15T16:07:07Z",
   "excludes_own_repos": true,
-  "merged": 26,
-  "in_review": 25,
+  "merged": 30,
+  "in_review": 20,
   "repo_count": 19,
   "all_prs_including_own": 78,
   "repos": [
@@ -137,15 +137,36 @@
     },
     {
       "repo": "openlit/openlit",
-      "merged": 1,
-      "open": 5,
+      "merged": 5,
+      "open": 0,
       "prs": [
+        {
+          "number": 1617,
+          "title": "fix(cli): resolve the newest cli-* release instead of /releases/latest",
+          "url": "https://github.com/openlit/openlit/pull/1617",
+          "state": "merged",
+          "updated": "2026-10-15"
+        },
         {
           "number": 1613,
           "title": "fix(groq): the async close override must be named close, not aclose",
           "url": "https://github.com/openlit/openlit/pull/1613",
-          "state": "open",
-          "updated": "2026-10-14"
+          "state": "merged",
+          "updated": "2026-10-15"
+        },
+        {
+          "number": 1611,
+          "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
+          "url": "https://github.com/openlit/openlit/pull/1611",
+          "state": "merged",
+          "updated": "2026-10-15"
+        },
+        {
+          "number": 1610,
+          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
+          "url": "https://github.com/openlit/openlit/pull/1610",
+          "state": "merged",
+          "updated": "2026-10-15"
         },
         {
           "number": 1566,
@@ -153,37 +174,9 @@
           "url": "https://github.com/openlit/openlit/pull/1566",
           "state": "merged",
           "updated": "2026-10-13"
-        },
-        {
-          "number": 1610,
-          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
-          "url": "https://github.com/openlit/openlit/pull/1610",
-          "state": "open",
-          "updated": "2026-10-12"
-        },
-        {
-          "number": 1611,
-          "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
-          "url": "https://github.com/openlit/openlit/pull/1611",
-          "state": "open",
-          "updated": "2026-10-11"
-        },
-        {
-          "number": 1612,
-          "title": "fix(browser_use/crawl4ai): record operation duration in seconds",
-          "url": "https://github.com/openlit/openlit/pull/1612",
-          "state": "open",
-          "updated": "2026-10-05"
-        },
-        {
-          "number": 1617,
-          "title": "fix(cli): resolve the newest cli-* release instead of /releases/latest",
-          "url": "https://github.com/openlit/openlit/pull/1617",
-          "state": "open",
-          "updated": "2026-09-19"
         }
       ],
-      "total": 6
+      "total": 5
     },
     {
       "repo": "BerriAI/litellm",
