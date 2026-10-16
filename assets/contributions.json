@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-15T16:07:07Z",
+  "generated": "2026-10-16T02:41:39Z",
   "excludes_own_repos": true,
   "merged": 30,
-  "in_review": 20,
-  "repo_count": 19,
-  "all_prs_including_own": 78,
+  "in_review": 21,
+  "repo_count": 20,
+  "all_prs_including_own": 79,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
@@ -415,6 +415,21 @@
           "url": "https://github.com/agno-agi/agno/pull/10652",
           "state": "open",
           "updated": "2026-09-29"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "charmbracelet/bubbletea",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 1871,
+          "title": "fix(tutorials): tidy go.mod so the tutorials run",
+          "url": "https://github.com/charmbracelet/bubbletea/pull/1871",
+          "state": "open",
+          "updated": "2026-10-16"
         }
       ],
       "total": 1
