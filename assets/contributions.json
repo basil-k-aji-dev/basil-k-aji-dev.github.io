@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-17T14:47:45Z",
+  "generated": "2026-10-18T02:34:08Z",
   "excludes_own_repos": true,
   "merged": 30,
-  "in_review": 21,
+  "in_review": 22,
   "repo_count": 20,
-  "all_prs_including_own": 79,
+  "all_prs_including_own": 80,
   "repos": [
     {
       "repo": "alibaba/open-code-review",
@@ -138,8 +138,15 @@
     {
       "repo": "openlit/openlit",
       "merged": 5,
-      "open": 0,
+      "open": 1,
       "prs": [
+        {
+          "number": 1757,
+          "title": "fix(typescript): report the streamed Anthropic output token total",
+          "url": "https://github.com/openlit/openlit/pull/1757",
+          "state": "open",
+          "updated": "2026-10-17"
+        },
         {
           "number": 1617,
           "title": "fix(cli): resolve the newest cli-* release instead of /releases/latest",
@@ -176,7 +183,7 @@
           "updated": "2026-10-13"
         }
       ],
-      "total": 5
+      "total": 6
     },
     {
       "repo": "BerriAI/litellm",
