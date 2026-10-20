@@ -1,12 +1,104 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-20T02:58:38Z",
+  "generated": "2026-10-20T16:10:38Z",
   "excludes_own_repos": true,
   "merged": 30,
-  "in_review": 22,
-  "repo_count": 20,
-  "all_prs_including_own": 80,
+  "in_review": 29,
+  "repo_count": 21,
+  "all_prs_including_own": 87,
   "repos": [
+    {
+      "repo": "openlit/openlit",
+      "merged": 5,
+      "open": 7,
+      "prs": [
+        {
+          "number": 1815,
+          "title": "fix(ai21): report cache read and cache creation tokens",
+          "url": "https://github.com/openlit/openlit/pull/1815",
+          "state": "open",
+          "updated": "2026-10-20"
+        },
+        {
+          "number": 1814,
+          "title": "fix(cohere): report cached prompt tokens",
+          "url": "https://github.com/openlit/openlit/pull/1814",
+          "state": "open",
+          "updated": "2026-10-20"
+        },
+        {
+          "number": 1813,
+          "title": "fix(mistral): report cached prompt and cache creation tokens",
+          "url": "https://github.com/openlit/openlit/pull/1813",
+          "state": "open",
+          "updated": "2026-10-20"
+        },
+        {
+          "number": 1812,
+          "title": "fix(azure-ai-inference): report reasoning tokens from usage",
+          "url": "https://github.com/openlit/openlit/pull/1812",
+          "state": "open",
+          "updated": "2026-10-20"
+        },
+        {
+          "number": 1811,
+          "title": "fix(vertexai): report reasoning tokens from thoughtsTokenCount",
+          "url": "https://github.com/openlit/openlit/pull/1811",
+          "state": "open",
+          "updated": "2026-10-20"
+        },
+        {
+          "number": 1810,
+          "title": "fix(google-ai): keep reasoning and cache token counts on streaming calls",
+          "url": "https://github.com/openlit/openlit/pull/1810",
+          "state": "open",
+          "updated": "2026-10-20"
+        },
+        {
+          "number": 1757,
+          "title": "fix(typescript): report the streamed Anthropic output token total",
+          "url": "https://github.com/openlit/openlit/pull/1757",
+          "state": "open",
+          "updated": "2026-10-20"
+        },
+        {
+          "number": 1617,
+          "title": "fix(cli): resolve the newest cli-* release instead of /releases/latest",
+          "url": "https://github.com/openlit/openlit/pull/1617",
+          "state": "merged",
+          "updated": "2026-10-15"
+        },
+        {
+          "number": 1613,
+          "title": "fix(groq): the async close override must be named close, not aclose",
+          "url": "https://github.com/openlit/openlit/pull/1613",
+          "state": "merged",
+          "updated": "2026-10-15"
+        },
+        {
+          "number": 1611,
+          "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
+          "url": "https://github.com/openlit/openlit/pull/1611",
+          "state": "merged",
+          "updated": "2026-10-15"
+        },
+        {
+          "number": 1610,
+          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
+          "url": "https://github.com/openlit/openlit/pull/1610",
+          "state": "merged",
+          "updated": "2026-10-15"
+        },
+        {
+          "number": 1566,
+          "title": "fix(together): bind instrumentation to together 2.x resource classes",
+          "url": "https://github.com/openlit/openlit/pull/1566",
+          "state": "merged",
+          "updated": "2026-10-13"
+        }
+      ],
+      "total": 12
+    },
     {
       "repo": "alibaba/open-code-review",
       "merged": 8,
@@ -134,56 +226,6 @@
         }
       ],
       "total": 7
-    },
-    {
-      "repo": "openlit/openlit",
-      "merged": 5,
-      "open": 1,
-      "prs": [
-        {
-          "number": 1757,
-          "title": "fix(typescript): report the streamed Anthropic output token total",
-          "url": "https://github.com/openlit/openlit/pull/1757",
-          "state": "open",
-          "updated": "2026-10-17"
-        },
-        {
-          "number": 1617,
-          "title": "fix(cli): resolve the newest cli-* release instead of /releases/latest",
-          "url": "https://github.com/openlit/openlit/pull/1617",
-          "state": "merged",
-          "updated": "2026-10-15"
-        },
-        {
-          "number": 1613,
-          "title": "fix(groq): the async close override must be named close, not aclose",
-          "url": "https://github.com/openlit/openlit/pull/1613",
-          "state": "merged",
-          "updated": "2026-10-15"
-        },
-        {
-          "number": 1611,
-          "title": "fix(anthropic): keep prompt-cache counts across a streamed message_delta",
-          "url": "https://github.com/openlit/openlit/pull/1611",
-          "state": "merged",
-          "updated": "2026-10-15"
-        },
-        {
-          "number": 1610,
-          "title": "fix(premai): make the streaming wrapper iterable and end its span once",
-          "url": "https://github.com/openlit/openlit/pull/1610",
-          "state": "merged",
-          "updated": "2026-10-15"
-        },
-        {
-          "number": 1566,
-          "title": "fix(together): bind instrumentation to together 2.x resource classes",
-          "url": "https://github.com/openlit/openlit/pull/1566",
-          "state": "merged",
-          "updated": "2026-10-13"
-        }
-      ],
-      "total": 6
     },
     {
       "repo": "BerriAI/litellm",
@@ -512,6 +554,21 @@
           "url": "https://github.com/rylena/sshdesk/pull/6",
           "state": "open",
           "updated": "2026-09-13"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "starship/starship",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 7810,
+          "title": "docs(config): correct trailing spaces in six documented symbol defaults",
+          "url": "https://github.com/starship/starship/pull/7810",
+          "state": "open",
+          "updated": "2026-10-20"
         }
       ],
       "total": 1
