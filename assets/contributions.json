@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-10-26T02:42:36Z",
+  "generated": "2026-10-26T18:04:12Z",
   "excludes_own_repos": true,
-  "merged": 30,
-  "in_review": 29,
+  "merged": 31,
+  "in_review": 28,
   "repo_count": 21,
   "all_prs_including_own": 87,
   "repos": [
@@ -454,6 +454,21 @@
       "total": 1
     },
     {
+      "repo": "starship/starship",
+      "merged": 1,
+      "open": 0,
+      "prs": [
+        {
+          "number": 7810,
+          "title": "docs(config): correct trailing spaces in six documented symbol defaults",
+          "url": "https://github.com/starship/starship/pull/7810",
+          "state": "merged",
+          "updated": "2026-10-26"
+        }
+      ],
+      "total": 1
+    },
+    {
       "repo": "agno-agi/agno",
       "merged": 0,
       "open": 1,
@@ -538,7 +553,7 @@
           "title": "fix(adapter-utils): correct the PATH join and the PATHEXT lookup in the managed git launcher",
           "url": "https://github.com/paperclipai/paperclip/pull/14129",
           "state": "open",
-          "updated": "2026-10-25"
+          "updated": "2026-10-26"
         }
       ],
       "total": 1
@@ -554,21 +569,6 @@
           "url": "https://github.com/rylena/sshdesk/pull/6",
           "state": "open",
           "updated": "2026-09-13"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "starship/starship",
-      "merged": 0,
-      "open": 1,
-      "prs": [
-        {
-          "number": 7810,
-          "title": "docs(config): correct trailing spaces in six documented symbol defaults",
-          "url": "https://github.com/starship/starship/pull/7810",
-          "state": "open",
-          "updated": "2026-10-20"
         }
       ],
       "total": 1
