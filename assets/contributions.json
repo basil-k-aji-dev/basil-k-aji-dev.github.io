@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-04T04:24:37Z",
+  "generated": "2026-11-04T19:13:22Z",
   "excludes_own_repos": true,
   "merged": 31,
   "in_review": 28,
@@ -233,6 +233,13 @@
       "open": 4,
       "prs": [
         {
+          "number": 42134,
+          "title": "fix(gemini): keep grounding citations on streamed responses",
+          "url": "https://github.com/BerriAI/litellm/pull/42134",
+          "state": "open",
+          "updated": "2026-11-04"
+        },
+        {
           "number": 42140,
           "title": "feat(streaming): opt-in strict_stream_completion for truncated streams",
           "url": "https://github.com/BerriAI/litellm/pull/42140",
@@ -243,13 +250,6 @@
           "number": 42138,
           "title": "feat(presidio): opt-in stable PII tokens that survive across requests",
           "url": "https://github.com/BerriAI/litellm/pull/42138",
-          "state": "open",
-          "updated": "2026-10-13"
-        },
-        {
-          "number": 42134,
-          "title": "fix(gemini): keep grounding citations on streamed responses",
-          "url": "https://github.com/BerriAI/litellm/pull/42134",
           "state": "open",
           "updated": "2026-10-13"
         },
