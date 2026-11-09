@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-09T04:04:19Z",
+  "generated": "2026-11-09T21:49:51Z",
   "excludes_own_repos": true,
-  "merged": 31,
-  "in_review": 30,
+  "merged": 32,
+  "in_review": 29,
   "repo_count": 21,
   "all_prs_including_own": 90,
   "repos": [
@@ -109,7 +109,7 @@
           "title": "fix(llm): fold tool calls from extra choices into the first choice",
           "url": "https://github.com/alibaba/open-code-review/pull/1873",
           "state": "open",
-          "updated": "2026-11-07"
+          "updated": "2026-11-09"
         },
         {
           "number": 1598,
@@ -229,15 +229,15 @@
     },
     {
       "repo": "tigerless-labs/autoharness",
-      "merged": 3,
-      "open": 1,
+      "merged": 4,
+      "open": 0,
       "prs": [
         {
           "number": 308,
           "title": "fix(promoter): carry use and view counts to the umbrella on absorb",
           "url": "https://github.com/tigerless-labs/autoharness/pull/308",
-          "state": "open",
-          "updated": "2026-11-07"
+          "state": "merged",
+          "updated": "2026-11-09"
         },
         {
           "number": 193,
