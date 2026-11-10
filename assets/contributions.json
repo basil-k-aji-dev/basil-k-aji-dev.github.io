@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-09T21:49:51Z",
+  "generated": "2026-11-10T05:36:46Z",
   "excludes_own_repos": true,
   "merged": 32,
   "in_review": 29,
@@ -552,7 +552,7 @@
           "title": "fix(electron): state sandbox: true on both BrowserWindow webPreferences",
           "url": "https://github.com/OpenHands/OpenHands/pull/17655",
           "state": "open",
-          "updated": "2026-10-05"
+          "updated": "2026-11-10"
         }
       ],
       "total": 1
