@@ -1,17 +1,24 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-10T05:36:46Z",
+  "generated": "2026-11-10T19:10:40Z",
   "excludes_own_repos": true,
-  "merged": 32,
-  "in_review": 29,
+  "merged": 33,
+  "in_review": 28,
   "repo_count": 21,
   "all_prs_including_own": 90,
   "repos": [
     {
       "repo": "openlit/openlit",
-      "merged": 5,
-      "open": 7,
+      "merged": 6,
+      "open": 6,
       "prs": [
+        {
+          "number": 1757,
+          "title": "fix(typescript): report the streamed Anthropic output token total",
+          "url": "https://github.com/openlit/openlit/pull/1757",
+          "state": "merged",
+          "updated": "2026-11-10"
+        },
         {
           "number": 1814,
           "title": "fix(cohere): report cached prompt tokens",
@@ -51,13 +58,6 @@
           "number": 1810,
           "title": "fix(google-ai): keep reasoning and cache token counts on streaming calls",
           "url": "https://github.com/openlit/openlit/pull/1810",
-          "state": "open",
-          "updated": "2026-10-20"
-        },
-        {
-          "number": 1757,
-          "title": "fix(typescript): report the streamed Anthropic output token total",
-          "url": "https://github.com/openlit/openlit/pull/1757",
           "state": "open",
           "updated": "2026-10-20"
         },
@@ -109,7 +109,7 @@
           "title": "fix(llm): fold tool calls from extra choices into the first choice",
           "url": "https://github.com/alibaba/open-code-review/pull/1873",
           "state": "open",
-          "updated": "2026-11-09"
+          "updated": "2026-11-10"
         },
         {
           "number": 1598,
