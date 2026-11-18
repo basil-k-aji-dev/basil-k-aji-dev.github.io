@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-18T05:31:20Z",
+  "generated": "2026-11-18T19:50:23Z",
   "excludes_own_repos": true,
   "merged": 33,
-  "in_review": 28,
+  "in_review": 26,
   "repo_count": 21,
   "all_prs_including_own": 90,
   "repos": [
@@ -358,35 +358,6 @@
       "total": 3
     },
     {
-      "repo": "Tencent/BrowserSkill",
-      "merged": 1,
-      "open": 2,
-      "prs": [
-        {
-          "number": 330,
-          "title": "fix(extension): evict tabs that enter an Agent Window without belonging to it",
-          "url": "https://github.com/Tencent/BrowserSkill/pull/330",
-          "state": "open",
-          "updated": "2026-10-12"
-        },
-        {
-          "number": 394,
-          "title": "fix: state the untrusted-input rule without the vocabulary guards match on",
-          "url": "https://github.com/Tencent/BrowserSkill/pull/394",
-          "state": "open",
-          "updated": "2026-10-04"
-        },
-        {
-          "number": 289,
-          "title": "docs(skill): say that page content is data, never instructions",
-          "url": "https://github.com/Tencent/BrowserSkill/pull/289",
-          "state": "merged",
-          "updated": "2026-09-20"
-        }
-      ],
-      "total": 3
-    },
-    {
       "repo": "JustVugg/colibri",
       "merged": 2,
       "open": 0,
@@ -478,6 +449,21 @@
           "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
           "state": "merged",
           "updated": "2026-09-17"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "Tencent/BrowserSkill",
+      "merged": 1,
+      "open": 0,
+      "prs": [
+        {
+          "number": 289,
+          "title": "docs(skill): say that page content is data, never instructions",
+          "url": "https://github.com/Tencent/BrowserSkill/pull/289",
+          "state": "merged",
+          "updated": "2026-09-20"
         }
       ],
       "total": 1
