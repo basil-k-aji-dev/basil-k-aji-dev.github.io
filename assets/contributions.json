@@ -1,9 +1,9 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-21T05:09:39Z",
+  "generated": "2026-11-21T18:33:42Z",
   "excludes_own_repos": true,
-  "merged": 33,
-  "in_review": 26,
+  "merged": 34,
+  "in_review": 25,
   "repo_count": 21,
   "all_prs_including_own": 90,
   "repos": [
@@ -381,15 +381,15 @@
     },
     {
       "repo": "starship/starship",
-      "merged": 1,
-      "open": 1,
+      "merged": 2,
+      "open": 0,
       "prs": [
         {
           "number": 7859,
           "title": "fix(maven): detect a project by its .mvn directory again",
           "url": "https://github.com/starship/starship/pull/7859",
-          "state": "open",
-          "updated": "2026-11-15"
+          "state": "merged",
+          "updated": "2026-11-21"
         },
         {
           "number": 7810,
