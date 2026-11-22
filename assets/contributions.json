@@ -1,17 +1,59 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-22T04:35:27Z",
+  "generated": "2026-11-22T18:55:26Z",
   "excludes_own_repos": true,
   "merged": 34,
-  "in_review": 25,
+  "in_review": 31,
   "repo_count": 21,
-  "all_prs_including_own": 90,
+  "all_prs_including_own": 96,
   "repos": [
     {
       "repo": "openlit/openlit",
       "merged": 6,
-      "open": 6,
+      "open": 12,
       "prs": [
+        {
+          "number": 1989,
+          "title": "fix(go-sdk): record the error on a failed stream before ending its span",
+          "url": "https://github.com/openlit/openlit/pull/1989",
+          "state": "open",
+          "updated": "2026-11-22"
+        },
+        {
+          "number": 1988,
+          "title": "fix(go-sdk): set error.type on the span of a failed non-streaming call",
+          "url": "https://github.com/openlit/openlit/pull/1988",
+          "state": "open",
+          "updated": "2026-11-22"
+        },
+        {
+          "number": 1987,
+          "title": "fix(go-sdk): emit cache and reasoning token counts under the keys Python and the UI read",
+          "url": "https://github.com/openlit/openlit/pull/1987",
+          "state": "open",
+          "updated": "2026-11-22"
+        },
+        {
+          "number": 1986,
+          "title": "fix(go/openai): record finish reasons on streams that end with a usage chunk",
+          "url": "https://github.com/openlit/openlit/pull/1986",
+          "state": "open",
+          "updated": "2026-11-22"
+        },
+        {
+          "number": 1981,
+          "title": "fix(openai-agents): keep create_agent instructions out of traces when the SDK excludes sensitive data",
+          "url": "https://github.com/openlit/openlit/pull/1981",
+          "state": "open",
+          "updated": "2026-11-22"
+        },
+        {
+          "number": 1980,
+          "title": "docs(gpu-collector): document CAP_SYS_PTRACE for cross-user CUDA library discovery",
+          "url": "https://github.com/openlit/openlit/pull/1980",
+          "state": "open",
+          "updated": "2026-11-22"
+        },
         {
           "number": 1757,
           "title": "fix(typescript): report the streamed Anthropic output token total",
@@ -97,7 +139,7 @@
           "updated": "2026-10-13"
         }
       ],
-      "total": 12
+      "total": 18
     },
     {
       "repo": "alibaba/open-code-review",
@@ -109,7 +151,7 @@
           "title": "fix(llm): fold tool calls from extra choices into the first choice",
           "url": "https://github.com/alibaba/open-code-review/pull/1873",
           "state": "open",
-          "updated": "2026-11-10"
+          "updated": "2026-11-22"
         },
         {
           "number": 1541,
