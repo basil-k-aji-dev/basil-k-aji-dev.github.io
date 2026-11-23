@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-22T18:55:26Z",
+  "generated": "2026-11-23T05:12:04Z",
   "excludes_own_repos": true,
   "merged": 34,
   "in_review": 31,
@@ -151,7 +151,7 @@
           "title": "fix(llm): fold tool calls from extra choices into the first choice",
           "url": "https://github.com/alibaba/open-code-review/pull/1873",
           "state": "open",
-          "updated": "2026-11-22"
+          "updated": "2026-11-23"
         },
         {
           "number": 1541,
