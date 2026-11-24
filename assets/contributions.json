@@ -1,28 +1,56 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-24T07:55:28Z",
+  "generated": "2026-11-24T21:49:55Z",
   "excludes_own_repos": true,
   "merged": 34,
-  "in_review": 31,
-  "repo_count": 21,
-  "all_prs_including_own": 96,
+  "in_review": 57,
+  "repo_count": 24,
+  "all_prs_including_own": 122,
   "repos": [
     {
       "repo": "openlit/openlit",
       "merged": 6,
-      "open": 12,
+      "open": 14,
       "prs": [
         {
-          "number": 1989,
-          "title": "fix(go-sdk): record the error on a failed stream before ending its span",
-          "url": "https://github.com/openlit/openlit/pull/1989",
+          "number": 2008,
+          "title": "fix(python-sdk): keep reasoning_content for Gradient chat completions",
+          "url": "https://github.com/openlit/openlit/pull/2008",
           "state": "open",
-          "updated": "2026-11-22"
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2007,
+          "title": "fix(python-sdk): report prompt-cache tokens for Gradient chat spans",
+          "url": "https://github.com/openlit/openlit/pull/2007",
+          "state": "open",
+          "updated": "2026-11-24"
         },
         {
           "number": 1988,
           "title": "fix(go-sdk): set error.type on the span of a failed non-streaming call",
           "url": "https://github.com/openlit/openlit/pull/1988",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1981,
+          "title": "fix(openai-agents): keep create_agent instructions out of traces when the SDK excludes sensitive data",
+          "url": "https://github.com/openlit/openlit/pull/1981",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1980,
+          "title": "docs(gpu-collector): document CAP_SYS_PTRACE for cross-user CUDA library discovery",
+          "url": "https://github.com/openlit/openlit/pull/1980",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1989,
+          "title": "fix(go-sdk): record the error on a failed stream before ending its span",
+          "url": "https://github.com/openlit/openlit/pull/1989",
           "state": "open",
           "updated": "2026-11-22"
         },
@@ -37,20 +65,6 @@
           "number": 1986,
           "title": "fix(go/openai): record finish reasons on streams that end with a usage chunk",
           "url": "https://github.com/openlit/openlit/pull/1986",
-          "state": "open",
-          "updated": "2026-11-22"
-        },
-        {
-          "number": 1981,
-          "title": "fix(openai-agents): keep create_agent instructions out of traces when the SDK excludes sensitive data",
-          "url": "https://github.com/openlit/openlit/pull/1981",
-          "state": "open",
-          "updated": "2026-11-22"
-        },
-        {
-          "number": 1980,
-          "title": "docs(gpu-collector): document CAP_SYS_PTRACE for cross-user CUDA library discovery",
-          "url": "https://github.com/openlit/openlit/pull/1980",
           "state": "open",
           "updated": "2026-11-22"
         },
@@ -139,7 +153,7 @@
           "updated": "2026-10-13"
         }
       ],
-      "total": 18
+      "total": 20
     },
     {
       "repo": "alibaba/open-code-review",
@@ -220,10 +234,159 @@
       "total": 10
     },
     {
+      "repo": "traceloop/openllmetry-js",
+      "merged": 0,
+      "open": 10,
+      "prs": [
+        {
+          "number": 1050,
+          "title": "fix(traceloop-sdk): end workflow, task, agent and tool spans when the function fails",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1050",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1049,
+          "title": "fix(instrumentation-anthropic): rebuild streamed tool_use arguments and thinking text",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1049",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1048,
+          "title": "fix(instrumentation-llamaindex): end the span when a streaming call fails or is abandoned",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1048",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1047,
+          "title": "fix(instrumentation-openai): end the span with error status when a request fails",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1047",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1046,
+          "title": "fix(instrumentation-cohere): pass streamed response chunks through to the caller",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1046",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1045,
+          "title": "fix(instrumentation-bedrock): pass streamed response chunks through to the caller",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1045",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1044,
+          "title": "fix(instrumentation-anthropic): record finish reasons for streamed messages",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1044",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1043,
+          "title": "fix(instrumentation-together): end the span with error status when a request fails",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1043",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1042,
+          "title": "fix(instrumentation-together): record zero-valued request parameters",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1042",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 1041,
+          "title": "fix(instrumentation-openai): record zero-valued request parameters",
+          "url": "https://github.com/traceloop/openllmetry-js/pull/1041",
+          "state": "open",
+          "updated": "2026-11-24"
+        }
+      ],
+      "total": 10
+    },
+    {
+      "repo": "traceloop/openllmetry",
+      "merged": 0,
+      "open": 8,
+      "prs": [
+        {
+          "number": 4749,
+          "title": "fix(ollama): record request options on the span",
+          "url": "https://github.com/traceloop/openllmetry/pull/4749",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 4748,
+          "title": "fix(ollama): record the finish reason on the span",
+          "url": "https://github.com/traceloop/openllmetry/pull/4748",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 4745,
+          "title": "fix(vertexai): record request parameters from generation_config",
+          "url": "https://github.com/traceloop/openllmetry/pull/4745",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 4744,
+          "title": "fix(vertexai): set gen_ai.response.finish_reasons on spans",
+          "url": "https://github.com/traceloop/openllmetry/pull/4744",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 4743,
+          "title": "fix(writer): record gen_ai.response.finish_reasons and gen_ai.response.id on chat spans",
+          "url": "https://github.com/traceloop/openllmetry/pull/4743",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 4742,
+          "title": "fix(mistralai): record gen_ai.response.finish_reasons and request parameters on chat spans",
+          "url": "https://github.com/traceloop/openllmetry/pull/4742",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 4741,
+          "title": "fix(together): record request parameters on chat and completion spans",
+          "url": "https://github.com/traceloop/openllmetry/pull/4741",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 4470,
+          "title": "fix(qdrant): restore search instrumentation on qdrant-client >= 1.12",
+          "url": "https://github.com/traceloop/openllmetry/pull/4470",
+          "state": "open",
+          "updated": "2026-11-24"
+        }
+      ],
+      "total": 8
+    },
+    {
       "repo": "maximhq/bifrost",
       "merged": 3,
       "open": 3,
       "prs": [
+        {
+          "number": 7465,
+          "title": "fix(logstore): create a column's declared indexes when a migration adds it",
+          "url": "https://github.com/maximhq/bifrost/pull/7465",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
         {
           "number": 7471,
           "title": "fix(ui): stop a per-user-headers catalog entry seeding an empty static header",
@@ -235,13 +398,6 @@
           "number": 7466,
           "title": "fix(logging): honor store_raw_request_response when updating a log entry",
           "url": "https://github.com/maximhq/bifrost/pull/7466",
-          "state": "open",
-          "updated": "2026-11-13"
-        },
-        {
-          "number": 7465,
-          "title": "fix(logstore): create a column's declared indexes when a migration adds it",
-          "url": "https://github.com/maximhq/bifrost/pull/7465",
           "state": "open",
           "updated": "2026-11-13"
         },
@@ -342,6 +498,42 @@
       "total": 4
     },
     {
+      "repo": "pydantic/logfire",
+      "merged": 0,
+      "open": 4,
+      "prs": [
+        {
+          "number": 2909,
+          "title": "Record error.type on failed non-streaming LLM requests",
+          "url": "https://github.com/pydantic/logfire/pull/2909",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2908,
+          "title": "Recognise gpt-5, o-series and chatgpt model names as OpenAI",
+          "url": "https://github.com/pydantic/logfire/pull/2908",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2907,
+          "title": "Set gen_ai.provider.name on litellm spans",
+          "url": "https://github.com/pydantic/logfire/pull/2907",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2906,
+          "title": "Set gen_ai.provider.name on OpenAI Agents spans",
+          "url": "https://github.com/pydantic/logfire/pull/2906",
+          "state": "open",
+          "updated": "2026-11-24"
+        }
+      ],
+      "total": 4
+    },
+    {
       "repo": "jingyaogong/minimind",
       "merged": 3,
       "open": 0,
@@ -395,6 +587,35 @@
           "url": "https://github.com/t8y2/dbx/pull/10998",
           "state": "merged",
           "updated": "2026-10-03"
+        }
+      ],
+      "total": 3
+    },
+    {
+      "repo": "comet-ml/opik",
+      "merged": 0,
+      "open": 3,
+      "prs": [
+        {
+          "number": 9768,
+          "title": "[issue-9761] [SDK] fix: do not end a user-provided parent when an OpenAI or Gemini call fails",
+          "url": "https://github.com/comet-ml/opik/pull/9768",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 9767,
+          "title": "[issue-9759] [SDK] fix: log trackOpenAI calls as llm spans",
+          "url": "https://github.com/comet-ml/opik/pull/9767",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 9764,
+          "title": "[issue-9760] [SDK] fix: set the requested model when an Anthropic span starts",
+          "url": "https://github.com/comet-ml/opik/pull/9764",
+          "state": "open",
+          "updated": "2026-11-24"
         }
       ],
       "total": 3
@@ -611,21 +832,6 @@
           "url": "https://github.com/rylena/sshdesk/pull/6",
           "state": "open",
           "updated": "2026-09-13"
-        }
-      ],
-      "total": 1
-    },
-    {
-      "repo": "traceloop/openllmetry",
-      "merged": 0,
-      "open": 1,
-      "prs": [
-        {
-          "number": 4470,
-          "title": "fix(qdrant): restore search instrumentation on qdrant-client >= 1.12",
-          "url": "https://github.com/traceloop/openllmetry/pull/4470",
-          "state": "open",
-          "updated": "2026-09-26"
         }
       ],
       "total": 1
