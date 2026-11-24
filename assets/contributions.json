@@ -1,6 +1,6 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-23T23:12:50Z",
+  "generated": "2026-11-24T07:55:28Z",
   "excludes_own_repos": true,
   "merged": 34,
   "in_review": 31,
@@ -520,7 +520,7 @@
           "title": "[fix] ChromaDb.content_hash_exists must not report a failed lookup as absent",
           "url": "https://github.com/agno-agi/agno/pull/10652",
           "state": "open",
-          "updated": "2026-09-29"
+          "updated": "2026-11-24"
         }
       ],
       "total": 1
