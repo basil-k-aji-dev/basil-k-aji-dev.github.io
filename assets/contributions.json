@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-25T06:31:01Z",
+  "generated": "2026-11-25T20:56:18Z",
   "excludes_own_repos": true,
   "merged": 34,
-  "in_review": 64,
-  "repo_count": 27,
-  "all_prs_including_own": 129,
+  "in_review": 79,
+  "repo_count": 30,
+  "all_prs_including_own": 144,
   "repos": [
     {
       "repo": "openlit/openlit",
@@ -17,14 +17,14 @@
           "title": "fix(python-sdk): keep reasoning_content for Gradient chat completions",
           "url": "https://github.com/openlit/openlit/pull/2008",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 2007,
           "title": "fix(python-sdk): report prompt-cache tokens for Gradient chat spans",
           "url": "https://github.com/openlit/openlit/pull/2007",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1988,
@@ -243,70 +243,70 @@
           "title": "fix(traceloop-sdk): end workflow, task, agent and tool spans when the function fails",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1050",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1049,
           "title": "fix(instrumentation-anthropic): rebuild streamed tool_use arguments and thinking text",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1049",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1048,
           "title": "fix(instrumentation-llamaindex): end the span when a streaming call fails or is abandoned",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1048",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1047,
           "title": "fix(instrumentation-openai): end the span with error status when a request fails",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1047",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1046,
           "title": "fix(instrumentation-cohere): pass streamed response chunks through to the caller",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1046",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1045,
           "title": "fix(instrumentation-bedrock): pass streamed response chunks through to the caller",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1045",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1044,
           "title": "fix(instrumentation-anthropic): record finish reasons for streamed messages",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1044",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1043,
           "title": "fix(instrumentation-together): end the span with error status when a request fails",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1043",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1042,
           "title": "fix(instrumentation-together): record zero-valued request parameters",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1042",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
           "number": 1041,
           "title": "fix(instrumentation-openai): record zero-valued request parameters",
           "url": "https://github.com/traceloop/openllmetry-js/pull/1041",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         }
       ],
       "total": 10
@@ -376,6 +376,63 @@
       "total": 8
     },
     {
+      "repo": "microsoft/semantic-kernel",
+      "merged": 0,
+      "open": 7,
+      "prs": [
+        {
+          "number": 14877,
+          "title": "Python: record the finish reason value, not its enum repr, in model diagnostics",
+          "url": "https://github.com/microsoft/semantic-kernel/pull/14877",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 14876,
+          "title": "Python: record zero-valued settings and token counts in model diagnostics",
+          "url": "https://github.com/microsoft/semantic-kernel/pull/14876",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 14875,
+          "title": "Python: use the service model id for the OpenAI streaming usage chunk",
+          "url": "https://github.com/microsoft/semantic-kernel/pull/14875",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 14874,
+          "title": "Python: report token usage from Ollama text completion",
+          "url": "https://github.com/microsoft/semantic-kernel/pull/14874",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 14873,
+          "title": "Python: set ai_model_id on non-streaming Azure AI Inference responses",
+          "url": "https://github.com/microsoft/semantic-kernel/pull/14873",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 14872,
+          "title": "Python: allow non-string Azure AI Inference embedding extra_parameters",
+          "url": "https://github.com/microsoft/semantic-kernel/pull/14872",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 14871,
+          "title": "Python: send Azure AI Inference stop sequences as a list",
+          "url": "https://github.com/microsoft/semantic-kernel/pull/14871",
+          "state": "open",
+          "updated": "2026-11-25"
+        }
+      ],
+      "total": 7
+    },
+    {
       "repo": "maximhq/bifrost",
       "merged": 3,
       "open": 3,
@@ -424,6 +481,49 @@
         }
       ],
       "total": 6
+    },
+    {
+      "repo": "braintrustdata/braintrust-sdk-javascript",
+      "merged": 0,
+      "open": 5,
+      "prs": [
+        {
+          "number": 2848,
+          "title": "fix(openrouter): record billed costs as estimated_cost",
+          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2848",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 2844,
+          "title": "fix(langsmith): record reasoning tokens as completion_reasoning_tokens",
+          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2844",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2843,
+          "title": "fix(langchain): record audio token metrics from usage metadata",
+          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2843",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2842,
+          "title": "fix(openai): report cache write tokens as prompt_cache_creation_tokens",
+          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2842",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2841,
+          "title": "fix(cohere): record reasoning tokens as completion_reasoning_tokens",
+          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2841",
+          "state": "open",
+          "updated": "2026-11-24"
+        }
+      ],
+      "total": 5
     },
     {
       "repo": "tigerless-labs/autoharness",
@@ -498,37 +598,37 @@
       "total": 4
     },
     {
-      "repo": "braintrustdata/braintrust-sdk-javascript",
+      "repo": "crewAIInc/crewAI",
       "merged": 0,
       "open": 4,
       "prs": [
         {
-          "number": 2844,
-          "title": "fix(langsmith): record reasoning tokens as completion_reasoning_tokens",
-          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2844",
+          "number": 9797,
+          "title": "fix(llm): report cached and reasoning tokens on the LiteLLM path",
+          "url": "https://github.com/crewAIInc/crewAI/pull/9797",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
-          "number": 2843,
-          "title": "fix(langchain): record audio token metrics from usage metadata",
-          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2843",
+          "number": 9796,
+          "title": "fix(azure): forward seed to Azure chat completions",
+          "url": "https://github.com/crewAIInc/crewAI/pull/9796",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
-          "number": 2842,
-          "title": "fix(openai): report cache write tokens as prompt_cache_creation_tokens",
-          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2842",
+          "number": 9795,
+          "title": "fix(openai): return streamed text when sync stream has no parsed result",
+          "url": "https://github.com/crewAIInc/crewAI/pull/9795",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         },
         {
-          "number": 2841,
-          "title": "fix(cohere): record reasoning tokens as completion_reasoning_tokens",
-          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2841",
+          "number": 9794,
+          "title": "fix(openai): send response_format for async streaming response_model",
+          "url": "https://github.com/crewAIInc/crewAI/pull/9794",
           "state": "open",
-          "updated": "2026-11-24"
+          "updated": "2026-11-25"
         }
       ],
       "total": 4
@@ -539,16 +639,16 @@
       "open": 4,
       "prs": [
         {
-          "number": 2909,
-          "title": "Record error.type on failed non-streaming LLM requests",
-          "url": "https://github.com/pydantic/logfire/pull/2909",
-          "state": "open",
-          "updated": "2026-11-24"
-        },
-        {
           "number": 2908,
           "title": "Recognise gpt-5, o-series and chatgpt model names as OpenAI",
           "url": "https://github.com/pydantic/logfire/pull/2908",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 2909,
+          "title": "Record error.type on failed non-streaming LLM requests",
+          "url": "https://github.com/pydantic/logfire/pull/2909",
           "state": "open",
           "updated": "2026-11-24"
         },
@@ -652,6 +752,35 @@
           "url": "https://github.com/comet-ml/opik/pull/9764",
           "state": "open",
           "updated": "2026-11-24"
+        }
+      ],
+      "total": 3
+    },
+    {
+      "repo": "confident-ai/deepeval",
+      "merged": 0,
+      "open": 3,
+      "prs": [
+        {
+          "number": 3766,
+          "title": "fix(models): fall back to the response text when Gemini returns no parsed schema output",
+          "url": "https://github.com/confident-ai/deepeval/pull/3766",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 3765,
+          "title": "fix(tracing): record cost on spans from patched Anthropic clients",
+          "url": "https://github.com/confident-ai/deepeval/pull/3765",
+          "state": "open",
+          "updated": "2026-11-25"
+        },
+        {
+          "number": 3764,
+          "title": "fix(benchmarks): unwrap the (samples, cost) tuple in HumanEval",
+          "url": "https://github.com/confident-ai/deepeval/pull/3764",
+          "state": "open",
+          "updated": "2026-11-25"
         }
       ],
       "total": 3
