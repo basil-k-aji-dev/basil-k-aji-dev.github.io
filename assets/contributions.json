@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-24T21:49:55Z",
+  "generated": "2026-11-25T06:31:01Z",
   "excludes_own_repos": true,
   "merged": 34,
-  "in_review": 57,
-  "repo_count": 24,
-  "all_prs_including_own": 122,
+  "in_review": 64,
+  "repo_count": 27,
+  "all_prs_including_own": 129,
   "repos": [
     {
       "repo": "openlit/openlit",
@@ -498,6 +498,42 @@
       "total": 4
     },
     {
+      "repo": "braintrustdata/braintrust-sdk-javascript",
+      "merged": 0,
+      "open": 4,
+      "prs": [
+        {
+          "number": 2844,
+          "title": "fix(langsmith): record reasoning tokens as completion_reasoning_tokens",
+          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2844",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2843,
+          "title": "fix(langchain): record audio token metrics from usage metadata",
+          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2843",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2842,
+          "title": "fix(openai): report cache write tokens as prompt_cache_creation_tokens",
+          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2842",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 2841,
+          "title": "fix(cohere): record reasoning tokens as completion_reasoning_tokens",
+          "url": "https://github.com/braintrustdata/braintrust-sdk-javascript/pull/2841",
+          "state": "open",
+          "updated": "2026-11-24"
+        }
+      ],
+      "total": 4
+    },
+    {
       "repo": "pydantic/logfire",
       "merged": 0,
       "open": 4,
@@ -687,6 +723,28 @@
       "total": 2
     },
     {
+      "repo": "langchain-ai/langsmith-javascript",
+      "merged": 0,
+      "open": 2,
+      "prs": [
+        {
+          "number": 109,
+          "title": "fix(gemini): record stop sequences as ls_stop",
+          "url": "https://github.com/langchain-ai/langsmith-javascript/pull/109",
+          "state": "open",
+          "updated": "2026-11-24"
+        },
+        {
+          "number": 108,
+          "title": "fix(wrappers): spell the 1h cache creation key ephemeral_1h_input_tokens",
+          "url": "https://github.com/langchain-ai/langsmith-javascript/pull/108",
+          "state": "open",
+          "updated": "2026-11-24"
+        }
+      ],
+      "total": 2
+    },
+    {
       "repo": "affaan-m/ECC",
       "merged": 1,
       "open": 0,
@@ -772,6 +830,21 @@
           "url": "https://github.com/github/advisory-database/pull/9514",
           "state": "open",
           "updated": "2026-09-14"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "langchain-ai/langsmith-python",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 124,
+          "title": "fix(wrappers): read stop_sequences for the Anthropic ls_stop",
+          "url": "https://github.com/langchain-ai/langsmith-python/pull/124",
+          "state": "open",
+          "updated": "2026-11-24"
         }
       ],
       "total": 1
