@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-26T06:22:57Z",
+  "generated": "2026-11-26T20:48:12Z",
   "excludes_own_repos": true,
-  "merged": 34,
-  "in_review": 80,
+  "merged": 38,
+  "in_review": 79,
   "repo_count": 31,
-  "all_prs_including_own": 145,
+  "all_prs_including_own": 148,
   "repos": [
     {
       "repo": "openlit/openlit",
@@ -376,6 +376,63 @@
       "total": 8
     },
     {
+      "repo": "pydantic/logfire",
+      "merged": 4,
+      "open": 3,
+      "prs": [
+        {
+          "number": 2909,
+          "title": "Record error.type on failed non-streaming LLM requests",
+          "url": "https://github.com/pydantic/logfire/pull/2909",
+          "state": "merged",
+          "updated": "2026-11-26"
+        },
+        {
+          "number": 2908,
+          "title": "Recognise gpt-5, o-series and chatgpt model names as OpenAI",
+          "url": "https://github.com/pydantic/logfire/pull/2908",
+          "state": "merged",
+          "updated": "2026-11-26"
+        },
+        {
+          "number": 2907,
+          "title": "Set gen_ai.provider.name on litellm spans",
+          "url": "https://github.com/pydantic/logfire/pull/2907",
+          "state": "merged",
+          "updated": "2026-11-26"
+        },
+        {
+          "number": 2906,
+          "title": "Set gen_ai.provider.name on OpenAI Agents spans",
+          "url": "https://github.com/pydantic/logfire/pull/2906",
+          "state": "merged",
+          "updated": "2026-11-26"
+        },
+        {
+          "number": 2936,
+          "title": "Record the prompt of legacy OpenAI completions as gen_ai.input.messages",
+          "url": "https://github.com/pydantic/logfire/pull/2936",
+          "state": "open",
+          "updated": "2026-11-26"
+        },
+        {
+          "number": 2935,
+          "title": "Keep litellm model and provider attributes when token counts are missing",
+          "url": "https://github.com/pydantic/logfire/pull/2935",
+          "state": "open",
+          "updated": "2026-11-26"
+        },
+        {
+          "number": 2934,
+          "title": "Set gen_ai.operation.name and cache read tokens on OpenAI Agents generation spans",
+          "url": "https://github.com/pydantic/logfire/pull/2934",
+          "state": "open",
+          "updated": "2026-11-26"
+        }
+      ],
+      "total": 7
+    },
+    {
       "repo": "microsoft/semantic-kernel",
       "merged": 0,
       "open": 7,
@@ -629,42 +686,6 @@
           "url": "https://github.com/crewAIInc/crewAI/pull/9794",
           "state": "open",
           "updated": "2026-11-25"
-        }
-      ],
-      "total": 4
-    },
-    {
-      "repo": "pydantic/logfire",
-      "merged": 0,
-      "open": 4,
-      "prs": [
-        {
-          "number": 2908,
-          "title": "Recognise gpt-5, o-series and chatgpt model names as OpenAI",
-          "url": "https://github.com/pydantic/logfire/pull/2908",
-          "state": "open",
-          "updated": "2026-11-25"
-        },
-        {
-          "number": 2909,
-          "title": "Record error.type on failed non-streaming LLM requests",
-          "url": "https://github.com/pydantic/logfire/pull/2909",
-          "state": "open",
-          "updated": "2026-11-24"
-        },
-        {
-          "number": 2907,
-          "title": "Set gen_ai.provider.name on litellm spans",
-          "url": "https://github.com/pydantic/logfire/pull/2907",
-          "state": "open",
-          "updated": "2026-11-24"
-        },
-        {
-          "number": 2906,
-          "title": "Set gen_ai.provider.name on OpenAI Agents spans",
-          "url": "https://github.com/pydantic/logfire/pull/2906",
-          "state": "open",
-          "updated": "2026-11-24"
         }
       ],
       "total": 4
