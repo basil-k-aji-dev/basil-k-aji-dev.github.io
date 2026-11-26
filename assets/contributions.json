@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-25T20:56:18Z",
+  "generated": "2026-11-26T06:22:57Z",
   "excludes_own_repos": true,
   "merged": 34,
-  "in_review": 79,
-  "repo_count": 30,
-  "all_prs_including_own": 144,
+  "in_review": 80,
+  "repo_count": 31,
+  "all_prs_including_own": 145,
   "repos": [
     {
       "repo": "openlit/openlit",
@@ -1019,6 +1019,21 @@
           "url": "https://github.com/paperclipai/paperclip/pull/14129",
           "state": "open",
           "updated": "2026-11-07"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "run-llama/llama_index",
+      "merged": 0,
+      "open": 1,
+      "prs": [
+        {
+          "number": 24496,
+          "title": "fix(mistralai): build one text block per streamed message",
+          "url": "https://github.com/run-llama/llama_index/pull/24496",
+          "state": "open",
+          "updated": "2026-11-26"
         }
       ],
       "total": 1
