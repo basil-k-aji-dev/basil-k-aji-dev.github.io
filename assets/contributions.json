@@ -1,11 +1,11 @@
 {
   "user": "basil-k-aji-dev",
-  "generated": "2026-11-27T06:12:35Z",
+  "generated": "2026-11-27T20:33:43Z",
   "excludes_own_repos": true,
-  "merged": 38,
-  "in_review": 79,
-  "repo_count": 31,
-  "all_prs_including_own": 148,
+  "merged": 40,
+  "in_review": 78,
+  "repo_count": 32,
+  "all_prs_including_own": 149,
   "repos": [
     {
       "repo": "openlit/openlit",
@@ -377,9 +377,23 @@
     },
     {
       "repo": "pydantic/logfire",
-      "merged": 4,
-      "open": 3,
+      "merged": 5,
+      "open": 2,
       "prs": [
+        {
+          "number": 2935,
+          "title": "Keep litellm model and provider attributes when token counts are missing",
+          "url": "https://github.com/pydantic/logfire/pull/2935",
+          "state": "merged",
+          "updated": "2026-11-27"
+        },
+        {
+          "number": 2934,
+          "title": "Set gen_ai.operation.name and cache read tokens on OpenAI Agents generation spans",
+          "url": "https://github.com/pydantic/logfire/pull/2934",
+          "state": "open",
+          "updated": "2026-11-27"
+        },
         {
           "number": 2909,
           "title": "Record error.type on failed non-streaming LLM requests",
@@ -412,20 +426,6 @@
           "number": 2936,
           "title": "Record the prompt of legacy OpenAI completions as gen_ai.input.messages",
           "url": "https://github.com/pydantic/logfire/pull/2936",
-          "state": "open",
-          "updated": "2026-11-26"
-        },
-        {
-          "number": 2935,
-          "title": "Keep litellm model and provider attributes when token counts are missing",
-          "url": "https://github.com/pydantic/logfire/pull/2935",
-          "state": "open",
-          "updated": "2026-11-26"
-        },
-        {
-          "number": 2934,
-          "title": "Set gen_ai.operation.name and cache read tokens on OpenAI Agents generation spans",
-          "url": "https://github.com/pydantic/logfire/pull/2934",
           "state": "open",
           "updated": "2026-11-26"
         }
@@ -920,6 +920,21 @@
           "url": "https://github.com/debpalash/VoiceStudio/pull/2072",
           "state": "merged",
           "updated": "2026-09-17"
+        }
+      ],
+      "total": 1
+    },
+    {
+      "repo": "Fzkuji/OpenProgram",
+      "merged": 1,
+      "open": 0,
+      "prs": [
+        {
+          "number": 39,
+          "title": "fix(worker): import no_window_creation_flags at both web spawn sites",
+          "url": "https://github.com/Fzkuji/OpenProgram/pull/39",
+          "state": "merged",
+          "updated": "2026-09-13"
         }
       ],
       "total": 1
